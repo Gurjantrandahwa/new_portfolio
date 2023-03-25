@@ -9,7 +9,7 @@ body{
     overflow-x: hidden;
     position: relative;
     background-color: #121212!important;
-    color: #ffffff;
+    color: #ffffff!important;
     font-family: 'Quicksand', sans-serif;
 }
 
@@ -17,6 +17,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0;
     padding: 0;
     line-height: normal;
+    font-family: 'Quicksand', sans-serif;
 }
 
 p, a, li, button, ul {
@@ -24,7 +25,7 @@ p, a, li, button, ul {
     padding: 0;
     line-height: normal;
     text-decoration: none;
-
+    font-family: 'Quicksand', sans-serif;
 }
 
 a:hover {
@@ -39,10 +40,12 @@ img {
 button {
     border: 0;
     background-color: transparent;
+    font-family: 'Quicksand', sans-serif;
 }
 
 input:focus, textarea:focus, select:focus {
     outline: none;
+    font-family: 'Quicksand', sans-serif;
 }
 
 @media (min-width:1700px) {
@@ -220,7 +223,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner {
     margin-top: 0;
     padding: 260px 0 100px 0;
-    /*background-image: url('./assets/img/banner-bg.png');*/
+    background-image: url('https://raw.githubusercontent.com/judygab/web-dev-projects/main/personal-portfolio/src/assets/img/banner-bg.png');
     background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -236,7 +239,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     display: inline-block;
 }
 .banner h1 {
-    font-size: 65px;
+    font-size: 60px;
     font-weight: 700;
     letter-spacing: 0.8px;
     line-height: 1;
@@ -316,7 +319,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .skill-slider .item img {
     width: 50%;
+    height:120px;
     margin: 0 auto 15px auto;
+    object-fit: cover;
 }
 .background-image-left {
     top: 28%;
@@ -350,11 +355,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     width: 72%;
     margin: 0 auto;
     border-radius: 50px;
-    background-color: rgb(255 255 255 / 10%);
+    background-color: rgba(255, 255, 255,0.1);
     overflow: hidden;
 }
 .project .nav.nav-pills .nav-item {
     width: 33.33333%;
+
 }
 .project .nav.nav-pills .nav-link {
     background-color: transparent;
@@ -389,7 +395,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .nav-link#projects-tabs-tab-first {
     border: 1px solid rgba(255, 255, 255, 0.5);
-    border-radius: 55px 0px 0px 55px;
+    border-radius: 55px 0 0 55px;
 }
 .nav-link#projects-tabs-tab-second {
     border-top: 1px solid rgba(255, 255, 255, 0.5);
@@ -404,6 +410,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     border-radius: 30px;
     overflow: hidden;
     margin-bottom: 24px;
+
+
 }
 .proj-imgbx::before {
     content: "";
@@ -413,6 +421,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     width: 100%;
     height: 0;
     transition: 0.4s ease-in-out;
+
 }
 .proj-imgbx:hover::before {
     height: 100%;
@@ -527,7 +536,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Footer Css ************/
 .footer {
     padding: 0 0 50px 0;
-    /*background-image: url('./assets/img/footer-bg.png');*/
+    /*background-image: url('./Assets/img/footer-bg.png');*/
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -601,4 +610,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     color: #B8B8B8;
     letter-spacing: 0.5px;
     margin-top: 20px;
+}
+@media screen and (max-width: 600px){
+    .banner h1{
+        font-size: 35px;
+    }
 }

@@ -1,12 +1,17 @@
 import './App.css';
 import {HomeNavbar} from "./components/HomeNavbar";
-import 'bootstrap/dist/css/bootstrap.min.css';
 import {Banner} from "./components/Banner";
+import {Skills} from "./components/Skills";
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+import {Projects} from "./components/Projects";
 
 function App() {
     return <div className={"App"}>
         <HomeNavbar/>
         <Banner/>
+        <Skills/>
+        <Projects/>
     </div>
 }
 
