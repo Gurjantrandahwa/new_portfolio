@@ -72,7 +72,7 @@ nav.navbar {
     transition:  0.32s ease-in-out;
 }
 nav.navbar.scrolled {
-    padding: 0px 0;
+    padding: 0 0;
     background-color: #121212;
 }
 nav.navbar a.navbar-brand {
@@ -155,7 +155,7 @@ span.navbar-text {
 }
 .navbar-text button::before {
     content: "";
-    width: 0%;
+    width: 0;
     height: 100%;
     position: absolute;
     background-color: #fff;
@@ -411,7 +411,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     overflow: hidden;
     margin-bottom: 24px;
 
-
+}
+.card-p{
+width: 300px;
+    height: 300px;
+    object-fit: cover;
 }
 .proj-imgbx::before {
     content: "";
@@ -440,11 +444,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     top: 50%;
     opacity: 1;
 }
-.proj-txtx h4 {
+.card-title {
     font-size: 30px;
     font-weight: 700;
     letter-spacing: 0.8px;
     line-height: 1.1em;
+  padding-bottom: 10px;
+    text-align: center;
 }
 .proj-txtx span {
     font-style: italic;

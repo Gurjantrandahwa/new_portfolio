@@ -1,5 +1,5 @@
 import {Col, Container, Nav, Row, Tab} from "react-bootstrap";
-import {projects} from "../data/data";
+import {mernProjects, projects, webProjects} from "../data/data";
 import {ProjectCard} from "./ProjectCard";
 
 export const Projects = () => {
@@ -31,7 +31,7 @@ export const Projects = () => {
                             </Nav.Item>
                             <Nav.Item>
                                 <Nav.Link eventKey={"third"}>
-                                    Tab Third
+                                    Tab Three
                                 </Nav.Link>
                             </Nav.Item>
                         </Nav>
@@ -54,10 +54,38 @@ export const Projects = () => {
                                 </Row>
                             </Tab.Pane>
                             <Tab.Pane eventKey={"second"}>
-                                Lorem Ipsum
+                                <Row>
+                                    {mernProjects.map((value, index) => {
+                                        return (
+                                            <ProjectCard
+                                                key={index}
+                                                {...value}
+                                                title={value.name}
+                                                description={value.description}
+                                                img={value.image}
+
+
+                                            />
+                                        )
+                                    })}
+                                </Row>
                             </Tab.Pane>
                             <Tab.Pane eventKey={"third"}>
-                                Lorem Ipsum
+                                <Row>
+                                    {webProjects.map((value, index) => {
+                                        return (
+                                            <ProjectCard
+                                                key={index}
+                                                {...value}
+                                                title={value.name}
+                                                description={value.description}
+                                                img={value.image}
+
+
+                                            />
+                                        )
+                                    })}
+                                </Row>
                             </Tab.Pane>
                         </Tab.Content>
                     </Tab.Container>
