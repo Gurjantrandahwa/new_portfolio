@@ -8,12 +8,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {
-    return <div className={"App"}>
+    return <>
         <HomeNavbar/>
         <Banner/>
         <Skills/>
         <Projects/>
-    </div>
+    </>
 }
 
 export default App;

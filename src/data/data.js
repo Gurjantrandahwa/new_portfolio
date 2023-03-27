@@ -8,7 +8,7 @@ import {
     nodejs,
     mongodb,
     git,
-    firebase, gith, chatApp, blog, ecommerce, movie, contact, pokeweb, trade, patient, exercise,
+    firebase, gith, chatApp, blog, ecommerce, movie, contact, pokeweb, trade, patient, exercise, stepperForm,
 } from "../Assets";
 
 

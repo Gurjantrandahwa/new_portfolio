@@ -18,7 +18,7 @@ export const Projects = () => {
 
 
                         <Nav variant={"pills"}
-                             className={"nav-pills mb-5 justify-content-center align-items-center"} id={"pills-tab"} >
+                             className={"nav-pills mb-5 justify-content-center align-items-center"} id={"pills-tab"}>
                             <Nav.Item>
                                 <Nav.Link eventKey={"first"}>
                                     Tab One
@@ -43,11 +43,11 @@ export const Projects = () => {
                                             <ProjectCard
                                                 key={index}
                                                 {...value}
-                                                 title={value.name}
-                                                 description={value.description}
-                                                 img={value.image}
-
-
+                                                title={value.name}
+                                                description={value.description}
+                                                img={value.image}
+                                                gitLink={value.source_code_link}
+                                                liveLink={value.live_link}
                                             />
                                         )
                                     })}
@@ -63,7 +63,8 @@ export const Projects = () => {
                                                 title={value.name}
                                                 description={value.description}
                                                 img={value.image}
-
+                                                gitLink={value.source_code_link}
+                                                liveLink={value.live_link}
 
                                             />
                                         )
@@ -80,7 +81,8 @@ export const Projects = () => {
                                                 title={value.name}
                                                 description={value.description}
                                                 img={value.image}
-
+                                                gitLink={value.source_code_link}
+                                                liveLink={value.live_link}
 
                                             />
                                         )

@@ -1,7 +1,7 @@
 import {Container, Nav, Navbar} from "react-bootstrap";
 import logo1 from "../Assets/logo1.png";
 import {useEffect, useState} from "react";
-import {FaFacebookF, FaLinkedinIn} from "react-icons/fa";
+import { FaLinkedinIn} from "react-icons/fa";
 import {AiFillGithub} from "react-icons/ai";
 
 export const HomeNavbar = () => {
@@ -46,7 +46,7 @@ export const HomeNavbar = () => {
                     >
                         Skills
                     </Nav.Link>
-                    <Nav.Link href="#projects"
+                    <Nav.Link href="#project"
                               className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'}
                               onClick={() => onUpdateActiveLink('projects')}
                     >
@@ -55,15 +55,10 @@ export const HomeNavbar = () => {
                 </Nav>
                 <span className={"navbar-text"}>
                   <div className={"social-icon"}>
-                      <a href={"#/"}>
-                          <FaFacebookF/>
-
-                      </a>
-                      <a href={"#/"}>
+                      <a href={"https://www.linkedin.com/in/gurjant-singh-49688a249/"}>
                           <FaLinkedinIn/>
-
                       </a>
-                      <a href={"#/"}>
+                      <a href={"https://github.com/Gurjantrandahwa"}>
                           <AiFillGithub/>
 
                       </a>
