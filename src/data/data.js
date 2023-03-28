@@ -212,6 +212,7 @@ const projects = [
         ],
         image: movie,
         source_code_link: "https://github.com/Gurjantrandahwa/movies_search_app",
+
     },
     {
         name: "E-commerce website",
@@ -350,7 +351,7 @@ const mernProjects = [
         ],
         image: "https://portfolio-9c109.web.app/static/media/img.d84a482c71e76553db94.png",
         source_code_link: "https://github.com/Gurjantrandahwa/AmazonClone",
-        live_link: "https://blog-app-f22d2.web.app/"
+        live_link: "https://e-clone-b0b92.web.app/"
     },
     {
         name: "Youtube Clone",
@@ -372,6 +373,7 @@ const mernProjects = [
         ],
         image: "https://portfolio-9c109.web.app/static/media/img_2.837e7f0d6270c57cb96d.png",
         source_code_link: "https://github.com/Gurjantrandahwa/Youtube-clone",
+        live_link: "https://clone-9b57d.web.app/"
     },
     {
         name: "Netflix Clone",
@@ -441,6 +443,7 @@ const webProjects = [
         ],
         image: trade,
         source_code_link: "https://github.com/Gurjantrandahwa/trade_website",
+        live_link: "https://gurjantrandahwa.github.io/trade_website/"
 
     },
     {
@@ -464,6 +467,8 @@ const webProjects = [
         ],
         image: patient,
         source_code_link: "https://github.com/Gurjantrandahwa/creatiwise_website",
+        live_link: "https://gurjantrandahwa.github.io/creatiwise_website/"
+
 
     },
     {
