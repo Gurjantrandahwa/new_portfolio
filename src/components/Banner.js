@@ -1,6 +1,8 @@
 import {Col, Container, Row} from "react-bootstrap";
 import {BsFillArrowRightCircleFill} from "react-icons/bs";
 import {useEffect, useState} from "react";
+import 'animate.css';
+import TrackVisibility from 'react-on-screen';
 
 export const Banner = () => {
     const [loopNum, setLoopNum] = useState(0);
@@ -41,17 +43,33 @@ export const Banner = () => {
         <Container>
             <Row className={"align-items-center"}>
                 <Col xs={12} md={6} xl={7}>
-                    <span className={"tagline"}>Welcome to my Portfolio</span>
-                    <h1>{`Hi I'm Gurjant Singh `} <span className={"wrap"}>{text}</span></h1>
-                    <p>Crafting high-performance web solutions with React.js expertise. We deliver seamless user experiences that engage and drive growth. Let's unlock the full potential of your online business together.</p>
-                    <button onClick={() => console.log('connect')}>
-                        Let's connect <BsFillArrowRightCircleFill size={25}/>
-                    </button>
+                    <TrackVisibility>
+                        {({isVisible}) =>
+                            <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
+                                <span className={"tagline"}>Welcome to my Portfolio</span>
+                                <h1>{`Hi I'm Gurjant Singh `}<br/><span className={"wrap"}> {text}</span></h1>
+                                <p>Crafting high-performance web solutions with React.js expertise. We deliver seamless
+                                    user experiences that engage and drive growth. Let's unlock the full potential of
+                                    your online business together.</p>
+                                <a href={"#connect"}>
+                                    <button>
+                                        Let's connect <BsFillArrowRightCircleFill size={25}/>
+                                    </button>
+                                </a>
+                            </div>
+
+                        }
+                    </TrackVisibility>
                 </Col>
                 <Col xs={12} md={6} xl={5}>
-                    <img
-                        src={"https://raw.githubusercontent.com/judygab/web-dev-projects/3099dfd4ab2683c422e0f4e662d84b8a147db245/personal-portfolio/src/assets/img/header-img.svg"}
-                        alt={"header img"}/>
+                    <TrackVisibility>
+                        {({isVisible}) =>
+                            <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
+                                <img
+                                    src={"https://raw.githubusercontent.com/judygab/web-dev-projects/3099dfd4ab2683c422e0f4e662d84b8a147db245/personal-portfolio/src/assets/img/header-img.svg"}
+                                    alt={"header img"}/>
+                            </div>}
+                    </TrackVisibility>
                 </Col>
             </Row>
         </Container>

@@ -63,10 +63,12 @@ export const HomeNavbar = () => {
 
                       </a>
                   </div>
-                    <button className={"vvd"}
-                            onClick={() => console.log("connect")}>
+                    <a href={"#connect"}>
+                           <button>
                         <span>Let's Connect</span>
                     </button>
+                    </a>
+
               </span>
             </Navbar.Collapse>
         </Container>

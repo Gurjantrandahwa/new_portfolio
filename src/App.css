@@ -287,7 +287,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     line-height: 1.5em;
     width: 96%;
 }
-
+.banner a{
+    text-decoration: none!important;
+}
 .banner button {
     color: #fff;
     font-weight: 700;
@@ -296,6 +298,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     letter-spacing: 0.8px;
     display: flex;
     align-items: center;
+
 }
 
 .banner button svg {
@@ -357,7 +360,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .skill-slider {
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
     position: relative;
 }

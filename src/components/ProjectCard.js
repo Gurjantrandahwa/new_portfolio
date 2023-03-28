@@ -2,7 +2,7 @@ import {Col} from "react-bootstrap";
 import github from "../Assets/tech/img_2.png"
 import live from "../Assets/logo1.png"
 export const ProjectCard = ({title, description, img, gitLink, liveLink}) => {
-    return <Col sm={6} md={6}>
+    return <Col size={12} sm={6} md={4}>
         <div className={"card-title"}>
             <h4>{title}</h4>
             <div>
