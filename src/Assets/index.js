@@ -19,7 +19,7 @@ import trade from "./Projects/trade.jpg"
 import patient from "./Projects/patient.jpg"
 import exercise from "./Projects/exercise.jpg"
 import stepperForm from "./Projects/stepper-form.jpg"
-
+import  travel from "./Projects/travel.jpg"
 export {
     logo1,
     css,
@@ -34,5 +34,5 @@ export {
     firebase,
     chatApp,
     movie,blog,ecommerce,contact,
-    pokeweb,trade,patient,exercise,stepperForm
+    pokeweb,trade,patient,exercise,stepperForm,travel
 };

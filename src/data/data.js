@@ -8,7 +8,7 @@ import {
     nodejs,
     mongodb,
     git,
-    firebase, gith, chatApp, blog, ecommerce, movie, contact, pokeweb, trade, patient, exercise, stepperForm,
+    firebase, gith, chatApp, blog, ecommerce, movie, contact, pokeweb, trade, patient, exercise, stepperForm,travel
 } from "../Assets";
 
 
@@ -166,7 +166,7 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: "https://media.licdn.com/dms/image/C4D22AQF_2eG3cDAFfg/feedshare-shrink_2048_1536/0/1675166001783?e=1680739200&v=beta&t=USY_Tvt0mbKTP2ZWSPKgXtRdzx1-TnL2IxkGUjwTpxk",
+        image:travel,
         source_code_link: "https://github.com/Gurjantrandahwa/travel_advisor",
         live_link: "https://travel-advisor-a53bd.web.app/"
     },
