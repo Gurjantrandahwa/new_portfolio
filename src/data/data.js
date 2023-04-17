@@ -131,15 +131,15 @@ const projects = [
         tags: [
             {
                 name: "react",
-                color: "blue-text-gradient",
+                color: "#6DA9E4",
             },
             {
                 name: "firebase",
-                color: "orange-text-gradient",
+                color: "#E86A33",
             },
             {
                 name: "tailwind",
-                color: "pink-text-gradient",
+                color: "#E8A0BF",
             },
         ],
         image: chatApp,
@@ -155,15 +155,15 @@ const projects = [
         tags: [
             {
                 name: "react.js",
-                color: "blue-text-gradient",
+                color: "#6DA9E4",
             },
             {
                 name: "jsx",
-                color: "green-text-gradient",
+                color: "#00FFCA",
             },
             {
                 name: "css",
-                color: "pink-text-gradient",
+                color: "#009FBD",
             },
         ],
         image:travel,
@@ -177,7 +177,7 @@ const projects = [
         tags: [
             {
                 name: "react.js",
-                color: "blue-text-gradient",
+                color: "#6DA9E4",
             },
             {
                 name: "jsx",
@@ -199,7 +199,7 @@ const projects = [
         tags: [
             {
                 name: "react.js",
-                color: "blue-text-gradient",
+                color: "#6DA9E4",
             },
             {
                 name: "api",
@@ -221,7 +221,7 @@ const projects = [
         tags: [
             {
                 name: "react.js",
-                color: "blue-text-gradient",
+                color: "#6DA9E4",
             },
             {
                 name: "api",
@@ -242,7 +242,7 @@ const projects = [
         tags: [
             {
                 name: "react.js",
-                color: "blue-text-gradient",
+                color: "#6DA9E4",
             },
             {
                 name: "api",
@@ -267,7 +267,7 @@ const mernProjects = [
         tags: [
             {
                 name: "react",
-                color: "blue-text-gradient",
+                color: "#6DA9E4",
             },
             {
                 name: "firebase",
@@ -291,7 +291,7 @@ const mernProjects = [
         tags: [
             {
                 name: "react.js",
-                color: "blue-text-gradient",
+                color: "#6DA9E4",
             },
             {
                 name: "firebase",
@@ -314,7 +314,7 @@ const mernProjects = [
         tags: [
             {
                 name: "react.js",
-                color: "blue-text-gradient",
+                color: "#6DA9E4",
             },
             {
                 name: "jsx",
@@ -338,7 +338,7 @@ const mernProjects = [
         tags: [
             {
                 name: "react.js",
-                color: "blue-text-gradient",
+                color: "#6DA9E4",
             },
             {
                 name: "jsx",
@@ -360,7 +360,7 @@ const mernProjects = [
         tags: [
             {
                 name: "react.js",
-                color: "blue-text-gradient",
+                color: "#6DA9E4",
             },
             {
                 name: "api",
@@ -382,7 +382,7 @@ const mernProjects = [
         tags: [
             {
                 name: "react.js",
-                color: "blue-text-gradient",
+                color: "#6DA9E4",
             },
             {
                 name: "firebase",
@@ -406,8 +406,8 @@ const webProjects = [
         ,
         tags: [
             {
-                name: "react",
-                color: "blue-text-gradient",
+                name: "react.js",
+                color: "#6DA9E4",
             },
             {
                 name: "firebase",

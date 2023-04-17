@@ -3,6 +3,7 @@ import {mernProjects, projects, webProjects} from "../data/data";
 import {ProjectCard} from "./ProjectCard";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+
 export const Projects = () => {
 
     return <section className={"project"} id={"project"}>
@@ -10,89 +11,93 @@ export const Projects = () => {
             <Row>
                 <Col size={12}>
                     <TrackVisibility>
-                        {({ isVisible }) =>
-                            <div className={isVisible ? "animate__animated animate__bounce": ""}>
-                    <h2>Projects</h2>
-                    <p>
-                        Innovative personal projects that showcase our web development and React.js expertise.
-                        Let us help you unlock the full potential of your online business with exceptional user
-                        experiences.
-                    </p>
-                    <Tab.Container id={"projects-tabs"} defaultActiveKey={"first"}>
-                        <Nav variant={"pills"}
-                             className={"nav-pills mb-5 justify-content-center align-items-center"} id={"pills-tab"}>
-                            <Nav.Item>
-                                <Nav.Link eventKey={"first"}>
-                                    Tab One
-                                </Nav.Link>
-                            </Nav.Item>
-                            <Nav.Item>
-                                <Nav.Link eventKey={"second"}>
-                                    Tab Two
-                                </Nav.Link>
-                            </Nav.Item>
-                            <Nav.Item>
-                                <Nav.Link eventKey={"third"}>
-                                    Tab Three
-                                </Nav.Link>
-                            </Nav.Item>
-                        </Nav>
-                        <Tab.Content>
-                            <Tab.Pane eventKey={"first"}>
-                                <Row>
-                                    {projects.map((value, index) => {
-                                        return (
-                                            <ProjectCard
-                                                key={index}
-                                                {...value}
-                                                title={value.name}
-                                                description={value.description}
-                                                img={value.image}
-                                                gitLink={value.source_code_link}
-                                                liveLink={value.live_link}
-                                            />
-                                        )
-                                    })}
-                                </Row>
-                            </Tab.Pane>
-                            <Tab.Pane eventKey={"second"}>
-                                <Row>
-                                    {mernProjects.map((value, index) => {
-                                        return (
-                                            <ProjectCard
-                                                key={index}
-                                                {...value}
-                                                title={value.name}
-                                                description={value.description}
-                                                img={value.image}
-                                                gitLink={value.source_code_link}
-                                                liveLink={value.live_link}
-
-                                            />
-                                        )
-                                    })}
-                                </Row>
-                            </Tab.Pane>
-                            <Tab.Pane eventKey={"third"}>
-                                <Row>
-                                    {webProjects.map((value, index) => {
-                                        return (
-                                            <ProjectCard
-                                                key={index}
-                                                {...value}
-                                                title={value.name}
-                                                description={value.description}
-                                                img={value.image}
-                                                gitLink={value.source_code_link}
-                                                liveLink={value.live_link}
-
-                                            />
-                                        )
-                                    })}
-                                </Row>
-                            </Tab.Pane>
-                        </Tab.Content>
-                    </Tab.Container>
+                        {({isVisible}) =>
+                            <div className={isVisible ? "animate__animated animate__bounce" : ""}>
+                                <h2>Projects</h2>
+                                <p>
+                                    Innovative personal projects that showcase our web development and React.js
+                                    expertise.
+                                    Let us help you unlock the full potential of your online business with exceptional
+                                    user
+                                    experiences.
+                                </p>
+                                <Tab.Container id={"projects-tabs"} defaultActiveKey={"first"}>
+                                    <Nav variant={"pills"}
+                                         className={"nav-pills mb-5 justify-content-center align-items-center"}
+                                         id={"pills-tab"}>
+                                        <Nav.Item>
+                                            <Nav.Link eventKey={"first"}>
+                                                Tab One
+                                            </Nav.Link>
+                                        </Nav.Item>
+                                        <Nav.Item>
+                                            <Nav.Link eventKey={"second"}>
+                                                Tab Two
+                                            </Nav.Link>
+                                        </Nav.Item>
+                                        <Nav.Item>
+                                            <Nav.Link eventKey={"third"}>
+                                                Tab Three
+                                            </Nav.Link>
+                                        </Nav.Item>
+                                    </Nav>
+                                    <Tab.Content>
+                                        <Tab.Pane eventKey={"first"}>
+                                            <Row>
+                                                {projects.map((value, index) => {
+                                                    return (
+                                                        <ProjectCard
+                                                            key={index}
+                                                            {...value}
+                                                            title={value.name}
+                                                            description={value.description}
+                                                            img={value.image}
+                                                            gitLink={value.source_code_link}
+                                                            liveLink={value.live_link}
+                                                            techs={value.tags}
+                                                        />
+                                                    )
+                                                })}
+                                            </Row>
+                                        </Tab.Pane>
+                                        <Tab.Pane eventKey={"second"}>
+                                            <Row>
+                                                {mernProjects.map((value, index) => {
+                                                    return (
+                                                        <ProjectCard
+                                                            key={index}
+                                                            {...value}
+                                                            title={value.name}
+                                                            description={value.description}
+                                                            img={value.image}
+                                                            gitLink={value.source_code_link}
+                                                            liveLink={value.live_link}
+                                                            techs={value.tags}
+                                                        />
+                                                    )
+                                                })}
+                                            </Row>
+                                        </Tab.Pane>
+                                        <Tab.Pane eventKey={"third"}>
+                                            <Row>
+                                                {webProjects.map((value, index) => {
+                                                    return (
+                                                        <ProjectCard
+                                                            key={index}
+                                                            {...value}
+                                                            title={value.name}
+                                                            description={value.description}
+                                                            img={value.image}
+                                                            gitLink={value.source_code_link}
+                                                            liveLink={value.live_link}
+                                                            techs={value.tags}
+                                                        />
+                                                    )
+                                                })}
+                                            </Row>
+                                        </Tab.Pane>
+                                    </Tab.Content>
+                                </Tab.Container>
                             </div>}
                     </TrackVisibility>
                 </Col>

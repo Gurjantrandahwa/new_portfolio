@@ -1,7 +1,7 @@
 import {Col} from "react-bootstrap";
 import github from "../Assets/tech/img_2.png"
 import live from "../Assets/logo1.png"
-export const ProjectCard = ({title, description, img, gitLink, liveLink}) => {
+export const ProjectCard = ({title, description, img, gitLink, liveLink,tags}) => {
     return <Col size={12} sm={6} md={4}>
         <div className={"card-title"}>
             <h4>{title}</h4>
@@ -24,9 +24,17 @@ export const ProjectCard = ({title, description, img, gitLink, liveLink}) => {
         <div className={"proj-imgbx"}>
             <img src={img} alt={title}/>
             <div className={"proj-txtx"}>
-
                 <span>{description}</span>
             </div>
+        </div>
+        <div className={"techs"}>
+            {
+                tags.map((value)=>{
+                    return<p className={`${value.color}`}>
+                        #{value.name}
+                    </p>
+                })
+            }
         </div>
     </Col>
 }

@@ -73,9 +73,11 @@ nav.navbar {
     z-index: 9999;
     transition: 0.32s ease-in-out;
 }
-nav.navbar img{
-    max-width: 60%!important;
+
+nav.navbar img {
+    max-width: 60% !important;
 }
+
 nav.navbar.scrolled {
     padding: 0 0;
     background-color: #121212;
@@ -287,9 +289,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     line-height: 1.5em;
     width: 96%;
 }
-.banner a{
-    text-decoration: none!important;
+
+.banner a {
+    text-decoration: none !important;
 }
+
 .banner button {
     color: #fff;
     font-weight: 700;
@@ -364,9 +368,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     margin: 0 auto;
     position: relative;
 }
-.skill-slider .item{
+
+.skill-slider .item {
     width: 100%;
 }
+
 .skill-slider img {
     width: 50%;
     height: 120px;
@@ -475,11 +481,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     margin-bottom: 24px;
 
 }
-.proj-imgbx img{
-    height: 260px!important;
+
+.proj-imgbx img {
+    height: 260px !important;
     object-fit: cover;
 
 }
+
 .card-p {
     width: 300px;
     height: 300px;
@@ -646,7 +654,19 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     width: 100%;
 }
 
-/************ Footer Css ************/
+.techs {
+    display: flex;
+    gap: 20px;
+    margin: 10px auto;
+justify-content: center;
+}
+.techs p{
+    text-transform: uppercase;
+    font-size: 15px!important;
+
+}
+
+    /************ Footer Css ************/
 .footer {
     padding: 50px;
     background-image: url('https://raw.githubusercontent.com/judygab/web-dev-projects/main/personal-portfolio/src/assets/img/footer-bg.png');
@@ -737,7 +757,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     margin-top: 20px;
 
 }
-.footer-logo{
+
+.footer-logo {
     display: flex;
     justify-content: space-evenly;
 }
@@ -746,7 +767,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     .banner h1 {
         font-size: 35px;
     }
-    .footer-logo{
+
+    .footer-logo {
         display: flex;
         flex-direction: column;
         gap: 20px;
