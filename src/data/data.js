@@ -1,5 +1,4 @@
 import {
-
     javascript,
     html,
     css,
@@ -138,8 +137,8 @@ const projects = [
                 color: "#E86A33",
             },
             {
-                name: "tailwind",
-                color: "#E8A0BF",
+                name: "SCSS",
+                color: "#9556d8",
             },
         ],
         image: chatApp,
@@ -159,11 +158,11 @@ const projects = [
             },
             {
                 name: "jsx",
-                color: "#00FFCA",
+                color: "#FFD95A",
             },
             {
                 name: "css",
-                color: "#009FBD",
+                color: "#E5BEEC",
             },
         ],
         image:travel,
@@ -180,12 +179,12 @@ const projects = [
                 color: "#6DA9E4",
             },
             {
-                name: "jsx",
-                color: "green-text-gradient",
+                name: "Firebase",
+                color: "#E86A33",
             },
             {
-                name: "css",
-                color: "pink-text-gradient",
+                name: "CSS",
+                color: "#E5BEEC",
             },
         ],
         image: blog,
@@ -203,11 +202,11 @@ const projects = [
             },
             {
                 name: "api",
-                color: "green-text-gradient",
+                color: "#8294C4",
             },
             {
                 name: "scss",
-                color: "pink-text-gradient",
+                color: "#9556d8",
             },
         ],
         image: movie,
@@ -225,11 +224,11 @@ const projects = [
             },
             {
                 name: "api",
-                color: "green-text-gradient",
+                color: "#00FFCA",
             },
             {
-                name: "css",
-                color: "pink-text-gradient",
+                name: "scss",
+                color: "#9556d8",
             },
         ],
         image: ecommerce,
@@ -245,12 +244,12 @@ const projects = [
                 color: "#6DA9E4",
             },
             {
-                name: "api",
-                color: "green-text-gradient",
+                name: "JSX",
+                color: "#FFD95A",
             },
             {
-                name: "css",
-                color: "pink-text-gradient",
+                name: "scss",
+                color: "#9556d8",
             },
         ],
         image: contact,
@@ -266,16 +265,17 @@ const mernProjects = [
         ,
         tags: [
             {
-                name: "react",
+                name: "react.js",
                 color: "#6DA9E4",
             },
+
             {
-                name: "firebase",
-                color: "orange-text-gradient",
+                name: "Mongo-DB",
+                color: "#03C988",
             },
             {
-                name: "tailwind",
-                color: "pink-text-gradient",
+                name: "Express.js",
+                color: "#F0F0F0",
             },
         ],
         image: "https://portfolio-9c109.web.app/static/media/img_7.e0376b60942ab541292d.png",
@@ -294,12 +294,12 @@ const mernProjects = [
                 color: "#6DA9E4",
             },
             {
-                name: "firebase",
-                color: "orange-text-gradient",
+                name: "Mongo-DB",
+                color: "#03C988",
             },
             {
-                name: "css",
-                color: "pink-text-gradient",
+                name: "Express.js",
+                color: "#F0F0F0",
             },
         ],
         image: "https://portfolio-9c109.web.app/static/media/img_1.159b111e7a988a9d7c2e.png",
@@ -317,12 +317,12 @@ const mernProjects = [
                 color: "#6DA9E4",
             },
             {
-                name: "jsx",
-                color: "green-text-gradient",
+                name: "Mongo-DB",
+                color: "#03C988",
             },
             {
-                name: "css",
-                color: "pink-text-gradient",
+                name: "Express.js",
+                color: "#F0F0F0",
             },
         ],
         image: "https://portfolio-9c109.web.app/static/media/img_3.19bcd3d3eec762a631e3.png",
@@ -341,12 +341,12 @@ const mernProjects = [
                 color: "#6DA9E4",
             },
             {
-                name: "jsx",
-                color: "green-text-gradient",
+                name: "firebase",
+                color: "#E86A33",
             },
             {
                 name: "css",
-                color: "pink-text-gradient",
+                color: "#E5BEEC",
             },
         ],
         image: "https://portfolio-9c109.web.app/static/media/img.d84a482c71e76553db94.png",
@@ -363,12 +363,12 @@ const mernProjects = [
                 color: "#6DA9E4",
             },
             {
-                name: "api",
-                color: "green-text-gradient",
+                name: "firebase",
+                color: "#E86A33",
             },
             {
-                name: "scss",
-                color: "pink-text-gradient",
+                name: "css",
+                color: "#E5BEEC",
             },
         ],
         image: "https://portfolio-9c109.web.app/static/media/img_2.837e7f0d6270c57cb96d.png",
@@ -386,11 +386,11 @@ const mernProjects = [
             },
             {
                 name: "firebase",
-                color: "orange-text-gradient",
+                color: "#E86A33",
             },
             {
                 name: "css",
-                color: "pink-text-gradient",
+                color: "#E5BEEC",
             },
         ],
         image: "https://portfolio-9c109.web.app/static/media/img_6.9210e801efe53eb8f0a6.png",
@@ -410,12 +410,12 @@ const webProjects = [
                 color: "#6DA9E4",
             },
             {
-                name: "firebase",
-                color: "orange-text-gradient",
+                name: "CSS",
+                color: "#E5BEEC",
             },
             {
-                name: "tailwind",
-                color: "pink-text-gradient",
+                name: "jsx",
+                color: "#FFD95A",
             },
         ],
         image: pokeweb,
@@ -430,15 +430,15 @@ const webProjects = [
         tags: [
             {
                 name: "HTML",
-                color: "blue-text-gradient",
+                color: "#4B56D2",
             },
             {
                 name: "CSS",
-                color: "orange-text-gradient",
+                color: "#E5BEEC",
             },
             {
                 name: "Javascript",
-                color: "yellow-text-gradient",
+                color: "#00FFF6",
             },
         ],
         image: trade,
@@ -454,15 +454,15 @@ const webProjects = [
         tags: [
             {
                 name: "HTML",
-                color: "blue-text-gradient",
+                color: "#47B5FF",
             },
             {
                 name: "CSS",
-                color: "orange-text-gradient",
+                color: "#E5BEEC",
             },
             {
                 name: "Javascript",
-                color: "yellow-text-gradient",
+                color: "#00FFF6",
             },
         ],
         image: patient,
@@ -477,16 +477,16 @@ const webProjects = [
             "Exercise Website is a web application that provides exercises and workout routines. It uses React.js for the frontend, providing a user-friendly interface with features such as exercise videos, exercises, and display. Users can receive personalized workout recommendations.",
         tags: [
             {
-                name: "HTML",
-                color: "blue-text-gradient",
+                name: "React.js",
+                color: "#6DA9E4",
+            },
+            {
+                name: "api",
+                color: "#00FFCA",
             },
             {
                 name: "CSS",
-                color: "orange-text-gradient",
-            },
-            {
-                name: "Javascript",
-                color: "yellow-text-gradient",
+                color: "#E5BEEC",
             },
         ],
         image: exercise,
@@ -499,16 +499,16 @@ const webProjects = [
             "Stepper Form is a web application that guides users through a multi-step form. It uses React.js for the frontend, providing a user-friendly interface with features such as step-by-step instructions and progress tracking. Users can input and review information before submitting the form.",
         tags: [
             {
-                name: "HTML",
-                color: "blue-text-gradient",
+                name: "React.js",
+                color: "#6DA9E4",
             },
             {
-                name: "CSS",
-                color: "orange-text-gradient",
+                name: "Jsx",
+                color: "#FFD95A",
             },
             {
-                name: "Javascript",
-                color: "yellow-text-gradient",
+                name: "Css",
+                color: "#E5BEEC",
             },
         ],
         image: stepperForm,

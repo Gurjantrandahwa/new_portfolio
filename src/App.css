@@ -349,11 +349,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     padding: 60px 50px;
     margin-top: -60px;
 }
+
 @media (max-width: 507px) {
-  .skill-bx{
-      padding: 60px 20px;
-  }
+    .skill-bx {
+        padding: 60px 20px;
+    }
 }
+
 .skill h2 {
     font-size: 45px;
     font-weight: 700;
@@ -414,11 +416,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     text-align: center;
     width: 56%;
 }
+
 @media (max-width: 507px) {
     .project p {
-       width: 100%;
+        width: 100%;
     }
 }
+
 .project .nav.nav-pills {
     width: 72%;
     margin: 0 auto;
@@ -426,11 +430,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     background-color: rgba(255, 255, 255, 0.1);
     overflow: hidden;
 }
+
 @media (max-width: 507px) {
-    .project .nav.nav-pills{
+    .project .nav.nav-pills {
         width: 100%;
     }
 }
+
 .project .nav.nav-pills .nav-item {
     width: 33.33333%;
 
@@ -668,17 +674,18 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .techs {
     display: flex;
-    gap: 20px;
+    gap: 10px;
     margin: 10px auto;
-justify-content: center;
+    justify-content: center;
 }
-.techs p{
+
+.techs p {
     text-transform: uppercase;
-    font-size: 15px!important;
-
+    font-size: 14px !important;
+font-weight: 500;
 }
 
-    /************ Footer Css ************/
+/************ Footer Css ************/
 .footer {
     padding: 50px;
     background-image: url('https://raw.githubusercontent.com/judygab/web-dev-projects/main/personal-portfolio/src/assets/img/footer-bg.png');
@@ -765,7 +772,7 @@ justify-content: center;
     font-weight: 400;
     font-size: 14px;
     color: #B8B8B8;
-    letter-spacing: 0.5px;
+
     margin-top: 20px;
 
 }
