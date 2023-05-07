@@ -65,7 +65,7 @@ export const Contact = () => {
                                     }
                                 >
                                     <h2>Get In Touch</h2>
-                                    <form action={"https://formspree.io/f/mvonwpjd"} method={"POST"}
+                                    <form action={"https://formspree.io/f/xoqzrrkv"} method={"POST"}
                                     >
                                         <Row>
                                             <Col size={12} sm={6} className="px-1">
