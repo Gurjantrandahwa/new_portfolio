@@ -7,7 +7,7 @@ import logo1 from "../Assets/logo1.png";
 export const Footer = () => {
   return (
       <footer className="footer">
-        <Container>
+        {/*<Container fluid>*/}
           <div className="footer-logo">
 
             <div >
@@ -25,10 +25,11 @@ export const Footer = () => {
                   <AiFillGithub/>
                 </a>
               </div>
-              <p>Copyright 2022. All Rights Reserved</p>
+
             </div>
+            <p className={"year"}>Copyright {new Date().getFullYear()}. All Rights Reserved</p>
           </div>
-        </Container>
+        {/*</Container>*/}
       </footer>
   )
 }
