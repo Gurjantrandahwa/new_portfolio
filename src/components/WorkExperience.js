@@ -31,7 +31,6 @@ export default function WorkExperience() {
                                 I have the experience in web development, specializing in frontend technologies.
                                 Throughout my career, I have successfully delivered high-quality web applications and collaborated
                                 with cross-functional teams to drive innovation and user engagement.
-                                My work experience encompasses the following key areas:
                             </p>
                         </div>
 

@@ -421,7 +421,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     font-weight: 700;
     color: black;
 }
-
+@media (max-width: 507px) {
+    .work-heading h2 {
+        font-size: 35px;
+    }
+}
 .work-heading p {
     padding: 20px 50px;
     color: #2b2424;
@@ -430,7 +434,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 @media (max-width: 507px) {
     .work-heading p {
-        padding: 20px;
+        padding: 10px;
+        font-size: 15px;
     }
 }
 
