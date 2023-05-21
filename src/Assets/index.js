@@ -20,6 +20,8 @@ import patient from "./Projects/patient.jpg"
 import exercise from "./Projects/exercise.jpg"
 import stepperForm from "./Projects/stepper-form.jpg"
 import  travel from "./Projects/travel.jpg"
+import prLogo from "../Assets/prLogo.png"
+import volo from "../Assets/volo.png";
 export {
     logo1,
     css,
@@ -34,5 +36,6 @@ export {
     firebase,
     chatApp,
     movie,blog,ecommerce,contact,
-    pokeweb,trade,patient,exercise,stepperForm,travel
+    pokeweb,trade,patient,exercise,stepperForm,travel,
+    prLogo,volo
 };

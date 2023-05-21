@@ -30,7 +30,7 @@ export const ProjectCard = ({title, description, img, gitLink, liveLink,tags}) =
         <div className={"techs"}>
             {
                 tags.map((value)=>{
-                    const style = { color: value.color };
+                    const style = { color: value.color,border:value.border };
                     return<p style={style}>
                         #{value.name}
                     </p>

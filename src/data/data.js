@@ -7,26 +7,40 @@ import {
     nodejs,
     mongodb,
     git,
-    firebase, gith, chatApp, blog, ecommerce, movie, contact, pokeweb, trade, patient, exercise, stepperForm,travel
+    firebase,
+    gith,
+    chatApp,
+    blog,
+    ecommerce,
+    movie,
+    contact,
+    pokeweb,
+    trade,
+    patient,
+    exercise,
+    stepperForm,
+    travel,
+    prLogo,
+    volo
 } from "../Assets";
 
 
 // const services = [
 //     {
 //         title: "Web Developer",
-//         icon: web,
+//         // icon: web,
 //     },
 //     {
 //         title: "React.Js Developer",
-//         icon: mobile,
+//         // icon: mobile,
 //     },
 //     {
 //         title: "Frontend Developer",
-//         icon: backend,
+//         // icon: backend,
 //     },
 //     {
 //         title: "Manual Tester",
-//         icon: creator,
+//         // icon: creator,
 //     },
 // ];
 
@@ -76,50 +90,50 @@ const technologies = [
     },
 ];
 
-// const experiences = [
-//     {
-//         title: "Web Developer",
-//         company_name: "Volobot Advanced Systems",
-//         icon: "volobot",
-//         iconBg: "#383E56",
-//         date: "Jul 2022 - Oct 2022",
-//         points: [
-//             "Experienced in developing responsive and user-friendly web applications using HTML, CSS, and JavaScript.",
-//             "Passionate about learning and staying up-to-date with the latest web development trends and best practices.",
-//             "Experienced in developing responsive and user-friendly web applications using HTML, CSS, and JavaScript.",
-//             "Skilled in creating and consuming RESTful APIs using Node.js and Express.js for server-side development.",
-//         ],
-//     },
-//     {
-//         title: "React.js Developer",
-//         company_name: "Volobot Advanced Systems",
-//         icon: "volobot",
-//         iconBg: "#383E56",
-//         date: "Dec 2022 - Mar 2023",
-//         points: [
-//             "Proficient in creating interactive, reusable, and responsive user interfaces using React.js library.",
-//             "Familiar with React Router for client-side routing and navigation in single-page applications.",
-//             "Familiar with popular UI libraries like Material UI and Semantic UI for building visually appealing and user-friendly interfaces.",
-//             "Comfortable working in a collaborative environment and utilizing version control systems like Git.",
-//         ],
-//     },
-//
-//     {
-//         title: "Manual Tester",
-//         company_name: "Freelancer",
-//         icon: "vector",
-//         iconBg: "#E6DEDD",
-//         date: "Dec 2022 - Mar 2023",
-//         points: [
-//             "Experienced in testing web and mobile applications for functionality, usability, and user experience.",
-//             "Experienced in working with developers to reproduce and debug defects.",
-//             "Familiar with manual exploratory testing techniques and able to identify defects and report them in a clear and concise manner.",
-//         ],
-//     },
-//
-//
-// ];
+const experiences = [
+    {
+        title: "React.js Developer",
+        company_name: "Paleru Technologies Pvt. Ltd.",
+        icon: prLogo,
+        iconBg: "#383E56",
+        date: "May 2023 - Present",
+        points: [
+            "Developed interactive and dynamic user interfaces of Praccel website using React.js.",
+            "Built the pages with React Router for client-side routing and navigation in single-page applications.",
+            "Implemented responsive designs using SASS to ensure a seamless user experience across devices.",
+            "Integrated third-party libraries and components to enhance application functionality.",
+        ],
+    },
 
+    {
+        title: "React.js Developer",
+        company_name: "Volobot Advanced Systems",
+        icon: volo,
+        iconBg: "#383E56",
+        date: "Dec 2022 - Mar 2023",
+        points: [
+            "Responsible for developing and maintaining responsive e-commerce website using React.js.",
+            "Collaborated with cross-functional teams to design and implement user interfaces.",
+            "Integrated with RESTful APIs to fetch and update data in real-time.",
+            "Comfortable working in a collaborative environment and utilizing version control systems like Git.",
+        ],
+    },
+
+    {
+        title: "Web Developer",
+        company_name: "Volobot Advanced Systems",
+        icon: volo,
+        iconBg: "#383E56",
+        date: "Jul 2022 - Oct 2022",
+        points: [
+            "Developed and maintained responsive websites using HTML, CSS, and JavaScript.",
+            "Implemented modern web design principles to create visually appealing and user-friendly interfaces.",
+            "Integrated RESTful APIs to fetch and display data in real-time.",
+            "Implemented responsive designs using CSS and CSS frameworks like Bootstrap or Tailwind CSS.",
+        ],
+    },
+
+];
 
 const projects = [
     {
@@ -131,14 +145,17 @@ const projects = [
             {
                 name: "react",
                 color: "#6DA9E4",
+                border: "1px solid #6DA9E4"
             },
             {
                 name: "firebase",
                 color: "#E86A33",
+                border: "1px solid #E86A33"
             },
             {
                 name: "SCSS",
                 color: "#9556d8",
+                border: "1px solid #9556d8"
             },
         ],
         image: chatApp,
@@ -155,14 +172,17 @@ const projects = [
             {
                 name: "react.js",
                 color: "#6DA9E4",
+                border: "1px solid #6DA9E4"
             },
             {
                 name: "jsx",
                 color: "#FFD95A",
+                border: "1px solid #FFD95A"
             },
             {
                 name: "css",
                 color: "#E5BEEC",
+                border: "1px solid #E5BEEC"
             },
         ],
         image:travel,
@@ -177,14 +197,17 @@ const projects = [
             {
                 name: "react.js",
                 color: "#6DA9E4",
+                border: "1px solid #6DA9E4"
             },
             {
                 name: "Firebase",
                 color: "#E86A33",
+                border: "1px solid #E86A33"
             },
             {
                 name: "CSS",
                 color: "#E5BEEC",
+                border: "1px solid #E5BEEC"
             },
         ],
         image: blog,
@@ -199,14 +222,17 @@ const projects = [
             {
                 name: "react.js",
                 color: "#6DA9E4",
+                border: "1px solid #6DA9E4"
             },
             {
                 name: "api",
                 color: "#8294C4",
+                border: "1px solid #8294C4"
             },
             {
                 name: "scss",
                 color: "#9556d8",
+                border: "1px solid #9556d8"
             },
         ],
         image: movie,
@@ -221,14 +247,17 @@ const projects = [
             {
                 name: "react.js",
                 color: "#6DA9E4",
+                border: "1px solid #6DA9E4"
             },
             {
                 name: "api",
                 color: "#00FFCA",
+                border: "1px solid #8294C4"
             },
             {
                 name: "scss",
                 color: "#9556d8",
+                border: "1px solid #9556d8"
             },
         ],
         image: ecommerce,
@@ -242,14 +271,17 @@ const projects = [
             {
                 name: "react.js",
                 color: "#6DA9E4",
+                border: "1px solid #6DA9E4"
             },
             {
                 name: "JSX",
                 color: "#FFD95A",
+                border: "1px solid #FFD95A"
             },
             {
                 name: "scss",
                 color: "#9556d8",
+                border: "1px solid #9556d8"
             },
         ],
         image: contact,
@@ -267,15 +299,18 @@ const mernProjects = [
             {
                 name: "react.js",
                 color: "#6DA9E4",
+                border: "1px solid #6DA9E4"
             },
 
             {
                 name: "Mongo-DB",
                 color: "#03C988",
+                border: "1px solid #03C988"
             },
             {
                 name: "Express.js",
                 color: "#F0F0F0",
+                border: "1px solid #F0F0F0"
             },
         ],
         image: "https://portfolio-9c109.web.app/static/media/img_7.e0376b60942ab541292d.png",
@@ -292,14 +327,17 @@ const mernProjects = [
             {
                 name: "react.js",
                 color: "#6DA9E4",
+                border: "1px solid #6DA9E4"
             },
             {
                 name: "Mongo-DB",
                 color: "#03C988",
+                border: "1px solid #03C988"
             },
             {
                 name: "Express.js",
                 color: "#F0F0F0",
+                border: "1px solid #F0F0F0"
             },
         ],
         image: "https://portfolio-9c109.web.app/static/media/img_1.159b111e7a988a9d7c2e.png",
@@ -315,14 +353,17 @@ const mernProjects = [
             {
                 name: "react.js",
                 color: "#6DA9E4",
+                border: "1px solid #6DA9E4"
             },
             {
                 name: "Mongo-DB",
                 color: "#03C988",
+                border: "1px solid #03C988"
             },
             {
                 name: "Express.js",
                 color: "#F0F0F0",
+                border: "1px solid #F0F0F0"
             },
         ],
         image: "https://portfolio-9c109.web.app/static/media/img_3.19bcd3d3eec762a631e3.png",
@@ -339,14 +380,17 @@ const mernProjects = [
             {
                 name: "react.js",
                 color: "#6DA9E4",
+                border: "1px solid #6DA9E4"
             },
             {
                 name: "firebase",
                 color: "#E86A33",
+                border: "1px solid #E86A33"
             },
             {
                 name: "css",
                 color: "#E5BEEC",
+                border: "1px solid #E5BEEC"
             },
         ],
         image: "https://portfolio-9c109.web.app/static/media/img.d84a482c71e76553db94.png",
@@ -361,14 +405,17 @@ const mernProjects = [
             {
                 name: "react.js",
                 color: "#6DA9E4",
+                border: "1px solid #6DA9E4"
             },
             {
                 name: "firebase",
                 color: "#E86A33",
+                border: "1px solid #E86A33"
             },
             {
                 name: "css",
                 color: "#E5BEEC",
+                border: "1px solid #E5BEEC"
             },
         ],
         image: "https://portfolio-9c109.web.app/static/media/img_2.837e7f0d6270c57cb96d.png",
@@ -383,14 +430,17 @@ const mernProjects = [
             {
                 name: "react.js",
                 color: "#6DA9E4",
+                border: "1px solid #6DA9E4"
             },
             {
                 name: "firebase",
                 color: "#E86A33",
+                border: "1px solid #E86A33"
             },
             {
                 name: "css",
                 color: "#E5BEEC",
+                border: "1px solid #E5BEEC"
             },
         ],
         image: "https://portfolio-9c109.web.app/static/media/img_6.9210e801efe53eb8f0a6.png",
@@ -408,14 +458,17 @@ const webProjects = [
             {
                 name: "react.js",
                 color: "#6DA9E4",
+                border: "1px solid #6DA9E4"
             },
             {
                 name: "CSS",
                 color: "#E5BEEC",
+                border: "1px solid #E5BEEC"
             },
             {
                 name: "jsx",
                 color: "#FFD95A",
+                border: "1px solid #FFD95A"
             },
         ],
         image: pokeweb,
@@ -431,14 +484,17 @@ const webProjects = [
             {
                 name: "HTML",
                 color: "#4B56D2",
+                border: "1px solid #4B56D2"
             },
             {
                 name: "CSS",
                 color: "#E5BEEC",
+                border: "1px solid #E5BEEC"
             },
             {
                 name: "Javascript",
                 color: "#00FFF6",
+                border: "1px solid #00FFF6"
             },
         ],
         image: trade,
@@ -455,14 +511,17 @@ const webProjects = [
             {
                 name: "HTML",
                 color: "#47B5FF",
+                border: "1px solid #4B56D2"
             },
             {
                 name: "CSS",
                 color: "#E5BEEC",
+                border: "1px solid #E5BEEC"
             },
             {
                 name: "Javascript",
                 color: "#00FFF6",
+                border: "1px solid #00FFF6"
             },
         ],
         image: patient,
@@ -479,14 +538,17 @@ const webProjects = [
             {
                 name: "React.js",
                 color: "#6DA9E4",
+                border: "1px solid #6DA9E4"
             },
             {
                 name: "api",
                 color: "#00FFCA",
+                border: "1px solid #00FFCA"
             },
             {
                 name: "CSS",
                 color: "#E5BEEC",
+                border: "1px solid #E5BEEC"
             },
         ],
         image: exercise,
@@ -501,14 +563,17 @@ const webProjects = [
             {
                 name: "React.js",
                 color: "#6DA9E4",
+                border: "1px solid #6DA9E4"
             },
             {
                 name: "Jsx",
                 color: "#FFD95A",
+                border: "1px solid #FFD95A"
             },
             {
                 name: "Css",
                 color: "#E5BEEC",
+                border: "1px solid #E5BEEC"
             },
         ],
         image: stepperForm,
@@ -518,8 +583,9 @@ const webProjects = [
 ];
 export {
     technologies,
-    // experiences,
+    experiences,
     projects,
     mernProjects,
-    webProjects
+    webProjects,
+    // services
 };
