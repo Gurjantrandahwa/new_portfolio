@@ -46,6 +46,12 @@ export const HomeNavbar = () => {
                     >
                         Skills
                     </Nav.Link>
+                    <Nav.Link href="#work"
+                              className={activeLink === 'work' ? 'active navbar-link' : 'navbar-link'}
+                              onClick={() => onUpdateActiveLink('work')}
+                    >
+                        Work Experience
+                    </Nav.Link>
                     <Nav.Link href="#project"
                               className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'}
                               onClick={() => onUpdateActiveLink('projects')}
