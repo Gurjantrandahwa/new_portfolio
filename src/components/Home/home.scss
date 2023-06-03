@@ -1,0 +1,49 @@
+.home{
+min-height: 100vh;
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  align-items: center;
+  grid-gap: 4rem;
+
+  .home-content{
+    max-width: 600px;
+
+    h1{
+      font-size: var(--big-font);
+      font-weight: 700;
+    }
+
+    .change-text{
+      font-size: 1.5rem;
+      font-weight: 600;
+      h3{
+        display: inline-flex;
+        margin: 0;
+        vertical-align: top;
+
+      }
+      .word{
+        position: absolute;
+        display: flex;
+        opacity: 0;
+
+      }
+
+      .letter{
+        transform-origin: center center 25px;
+      }
+      .letter.out{
+        transform: rotateX(90deg);
+        transition: 0.32s cubic-bezier(0.6,0,0.7,0.2);
+      }
+      .letter.in{
+        transition: 0.38s ease;
+      }
+      .letter.behind{
+        transform: rotateX(-90deg);
+      }
+    }
+  }
+}

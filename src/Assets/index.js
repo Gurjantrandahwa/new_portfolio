@@ -1,4 +1,4 @@
-import logo1 from "./logo1.png";
+import logo1 from "./company/logo1.png";
 import css from "./tech/css.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
@@ -20,8 +20,8 @@ import patient from "./Projects/patient.jpg"
 import exercise from "./Projects/exercise.jpg"
 import stepperForm from "./Projects/stepper-form.jpg"
 import  travel from "./Projects/travel.jpg"
-import prLogo from "../Assets/prLogo.png"
-import volo from "../Assets/volo.png";
+import prLogo from "./company/prLogo.png"
+import volo from "./company/volo.png";
 export {
     logo1,
     css,
