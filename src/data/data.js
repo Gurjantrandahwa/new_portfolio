@@ -1,9 +1,4 @@
-import {
-    javascript,
-    html,
-    css,
-    reactjs,
-    tailwind,
+import {javascript, html, css, reactjs, tailwind,
     nodejs,
     mongodb,
     git,
@@ -23,26 +18,35 @@ import {
     prLogo,
     volo
 } from "../Assets";
+import React from "react";
 
 
-// const services = [
-//     {
-//         title: "Web Developer",
-//         // icon: web,
-//     },
-//     {
-//         title: "React.Js Developer",
-//         // icon: mobile,
-//     },
-//     {
-//         title: "Frontend Developer",
-//         // icon: backend,
-//     },
-//     {
-//         title: "Manual Tester",
-//         // icon: creator,
-//     },
-// ];
+const services = [
+    {
+        title: "Web Developer",
+        description:"I specialize in creating tailored websites that align with your unique business requirements,ensuring a seamless user experience and optimal functionality.",
+         icon: "",
+        button:"Read More"
+    },
+    {
+        title: "Frontend Developer",
+        description:"Using modern frontend technologies such as HTML, CSS, and JavaScript, I bring designs to life and create interactive and visually appealing user interfaces.",
+         icon: "",
+        button:"Read More"
+    },
+    {
+        title: "Responsive Design",
+        description:"I develop websites that adapt to different screen sizes and devices, providing a consistent and user-friendly experience for all visitors.",
+        icon: "",
+        button:"Read More"
+    },
+    {
+        title: "Website Maintenance",
+        description:"I provide ongoing support and maintenance services to ensure your website remains secure, up-to-date, and functioning at its best.",
+        icon: "",
+        button:"Read More"
+    },
+];
 
 const technologies = [
     {
@@ -587,5 +591,18 @@ export {
     projects,
     mernProjects,
     webProjects,
-    // services
+    services
 };
+
+{
+    services.map((value, index) => {
+        return <div className={"service-box"}>
+            {value.icon}
+            <h3>{value.title}</h3>
+            <p>{value.description}</p>
+            <div className={"btn-box service-btn"}>
+                <a href={"#"}>{value.button}</a>
+            </div>
+        </div>
+    })
+}
