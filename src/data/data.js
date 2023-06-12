@@ -1,96 +1,78 @@
-import {javascript, html, css, reactjs, tailwind,
-    nodejs,
-    mongodb,
-    git,
-    firebase,
-    gith,
-    chatApp,
-    blog,
-    ecommerce,
-    movie,
-    contact,
-    pokeweb,
-    trade,
-    patient,
-    exercise,
-    stepperForm,
-    travel,
-    prLogo,
-    volo
-} from "../Assets";
-import React from "react";
+import {javascript, html, css, reactjs, tailwind, nodejs, mongodb, git, firebase, gith, chatApp, blog, ecommerce, movie, contact, pokeweb, trade, patient, exercise, stepperForm, travel, prLogo, volo} from "../Assets";
+import {FiMonitor} from "react-icons/fi";
+import {BsCodeSlash} from "react-icons/bs";
+import {AiOutlineMobile} from "react-icons/ai";
 
 
 const services = [
     {
-        title: "Web Developer",
-        description:"I specialize in creating tailored websites that align with your unique business requirements,ensuring a seamless user experience and optimal functionality.",
-         icon: "",
-        button:"Read More"
+        title: "Frontend Developer",
+        description: "Using modern frontend technologies such as HTML, CSS, JavaScript, React.js and some other frameworks, I bring designs to life and create interactive and visually appealing user interfaces.",
+        icon:<><BsCodeSlash/></>,
+        button: "Read More"
     },
     {
-        title: "Frontend Developer",
-        description:"Using modern frontend technologies such as HTML, CSS, and JavaScript, I bring designs to life and create interactive and visually appealing user interfaces.",
-         icon: "",
-        button:"Read More"
+        title: "Web Developer",
+        description: "I specialize in creating tailored websites that align with your unique business requirements,ensuring a seamless user experience and optimal functionality.",
+        icon:<><FiMonitor/></>,
+        button: "Read More"
     },
+
     {
         title: "Responsive Design",
-        description:"I develop websites that adapt to different screen sizes and devices, providing a consistent and user-friendly experience for all visitors.",
-        icon: "",
-        button:"Read More"
+        description: "I develop websites that adapt to different screen sizes and devices, providing a consistent and user-friendly experience for all visitors.",
+        icon: <><AiOutlineMobile/></>,
+        button: "Read More"
     },
-    {
-        title: "Website Maintenance",
-        description:"I provide ongoing support and maintenance services to ensure your website remains secure, up-to-date, and functioning at its best.",
-        icon: "",
-        button:"Read More"
-    },
+
+
+
 ];
 
-const technologies = [
+const skills = [
     {
         name: "HTML 5",
         icon: html,
+        percent:<p className={"html"}/>
     },
     {
         name: "CSS 3",
         icon: css,
+        percent:<p className={"css"}/>
     },
     {
         name: "JavaScript",
         icon: javascript,
+        percent:<p className={"javascript"}/>
     },
 
     {
         name: "React JS",
         icon: reactjs,
+        percent:<p className={"react"}/>
     },
 
     {
         name: "Tailwind CSS",
         icon: tailwind,
+        percent:<p className={"tailwind"}/>
     },
     {
         name: "Node JS",
         icon: nodejs,
-    },
-    {
-        name: "MongoDB",
-        icon: mongodb,
+        percent:<p className={"node"}/>
     },
 
     {
         name: "Firebase",
         icon: firebase,
+        percent:<p className={"firebase"}/>
     },
+
     {
-        name: "GitLab",
-        icon: git,
-    },
-    {
-        name: "Github",
+        name: "Git",
         icon: gith,
+        percent:<p className={"git"}/>
     },
 ];
 
@@ -189,7 +171,7 @@ const projects = [
                 border: "1px solid #E5BEEC"
             },
         ],
-        image:travel,
+        image: travel,
         source_code_link: "https://github.com/Gurjantrandahwa/travel_advisor",
         live_link: "https://travel-advisor-a53bd.web.app/"
     },
@@ -586,7 +568,7 @@ const webProjects = [
     },
 ];
 export {
-    technologies,
+    skills,
     experiences,
     projects,
     mernProjects,
@@ -594,15 +576,3 @@ export {
     services
 };
 
-{
-    services.map((value, index) => {
-        return <div className={"service-box"}>
-            {value.icon}
-            <h3>{value.title}</h3>
-            <p>{value.description}</p>
-            <div className={"btn-box service-btn"}>
-                <a href={"#"}>{value.button}</a>
-            </div>
-        </div>
-    })
-}

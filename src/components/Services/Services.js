@@ -13,11 +13,11 @@ export default function Services() {
 
             {
                 services.map((value, index) => {
-                    return <div className={"service-box"}>
+                    return <div className={"service-box"} key={index}>
                         {value.icon}
                         <h3>{value.title}</h3>
                         <p>{value.description}</p>
-                        <div className={"btn-box service-btn"}>
+                        <div className={"btn-box"}>
                             <a href={"#"}>{value.button}</a>
                         </div>
                     </div>
