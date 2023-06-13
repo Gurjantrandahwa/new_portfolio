@@ -1,4 +1,4 @@
-import {javascript, html, css, reactjs, tailwind, nodejs, mongodb, git, firebase, gith, chatApp, blog, ecommerce, movie, contact, pokeweb, trade, patient, exercise, stepperForm, travel, prLogo, volo} from "../Assets";
+import {javascript, html, css, reactjs, tailwind, nodejs, firebase, gith, chatApp, blog, ecommerce, movie, contact, pokeweb, trade, patient, exercise, stepperForm, travel, prLogo, volo} from "../Assets";
 import {FiMonitor} from "react-icons/fi";
 import {BsCodeSlash} from "react-icons/bs";
 import {AiOutlineMobile} from "react-icons/ai";
@@ -33,46 +33,50 @@ const skills = [
     {
         name: "HTML 5",
         icon: html,
-        percent:<p className={"html"}/>
+        percent:"72%",
     },
     {
         name: "CSS 3",
         icon: css,
-        percent:<p className={"css"}/>
+
     },
     {
         name: "JavaScript",
         icon: javascript,
-        percent:<p className={"javascript"}/>
+
     },
 
     {
         name: "React JS",
         icon: reactjs,
-        percent:<p className={"react"}/>
-    },
 
+    },
+    {
+        name: "Next JS",
+        icon: reactjs,
+
+    },
     {
         name: "Tailwind CSS",
         icon: tailwind,
-        percent:<p className={"tailwind"}/>
+
     },
     {
         name: "Node JS",
         icon: nodejs,
-        percent:<p className={"node"}/>
+
     },
 
     {
         name: "Firebase",
         icon: firebase,
-        percent:<p className={"firebase"}/>
+
     },
 
     {
         name: "Git",
         icon: gith,
-        percent:<p className={"git"}/>
+
     },
 ];
 
