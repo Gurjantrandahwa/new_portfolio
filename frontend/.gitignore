@@ -18,7 +18,7 @@
 .env.test.local
 .env.production.local
 .firebaserc
-.firebase
+frontend/.firebase
 firebase-debug.log
 firebase.json
 npm-debug.log*
