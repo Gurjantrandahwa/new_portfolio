@@ -1,18 +1,14 @@
-import {Header} from "./components/Header/Header";
+import {Header} from "./Pages/Header/Header";
 import "./App.scss";
-import Home from "./components/Home/Home";
-import About from "./components/About/About";
-import Services from "./components/Services/Services";
-import Skills from "./components/Skills/Skills";
+
+import Navbar from "./components/Navbar";
 
 function App() {
-    return <>
+    return <div className={"app"}>
+        <Navbar/>
         <Header/>
-        <Home/>
-        <About/>
-        <Services/>
-        <Skills/>
-    </>
+
+    </div>
 }
 
 export default App;
