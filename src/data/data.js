@@ -29,56 +29,67 @@ const about = [
 ];
 
 
-// const skills = [
-//     {
-//         name: "HTML 5",
-//         icon: html,
-//     },
-//     {
-//         name: "CSS 3",
-//         icon: css,
-//
-//     },
-//     {
-//         name: "JavaScript",
-//         icon: javascript,
-//
-//     },
-//
-//     {
-//         name: "React JS",
-//         icon: reactjs,
-//
-//     },
-//     {
-//         name: "Next JS",
-//         icon: reactjs,
-//
-//     },
-//     {
-//         name: "Tailwind CSS",
-//         icon: tailwind,
-//
-//     },
-//     {
-//         name: "Node JS",
-//         icon: nodejs,
-//
-//     },
-//
-//     {
-//         name: "Firebase",
-//         icon: firebase,
-//
-//     },
-//
-//     {
-//         name: "Git",
-//         icon: gith,
-//
-//     },
-// ];
-//
+const skills = [
+    {
+        name: "HTML 5",
+        // bgColor: "#a73838",
+        icon:images.html
+    },
+    {
+        name: "CSS 3",
+        // bgColor: "#242652",
+        icon:images.css
+    },
+    {
+        name: "SASS",
+        // bgColor: "#be6596",
+        icon:images.sass
+    },
+    {
+        name: "JavaScript",
+        // bgColor: "#bdd010",
+        icon:images.javascript
+    },
+
+    {
+        name: "React JS",
+        // bgColor: "#3850a7",
+        icon:images.react
+    },
+    {
+        name: "Redux",
+        // bgColor: "#272525",
+        icon:images.redux
+    },
+    {
+        name: "Next JS",
+        // bgColor: "#272525",
+        icon:images.redux
+    },
+    {
+        name: "Tailwind CSS",
+        // bgColor: "#3889a7",
+        icon:images.typescript
+    },
+    {
+        name: "Node JS",
+        // bgColor: "#38a73a",
+        icon:images.node
+    },
+
+    {
+        name: "Firebase",
+        // bgColor: "#d0b652",
+        icon:images.node
+    },
+
+    {
+        name: "Git",
+        // bgColor: "rgba(24,2,2,0.59)",
+        icon:images.git
+    },
+];
+
 // const experiences = [
 //     {
 //         title: "React.js Developer",
@@ -130,23 +141,7 @@ const All = [
         description:
             "The app allows users to sign up, log in, and log out of the chat app using Firebase authentication services. This ensures that only authorized users can access the app and chat with each other."
         ,
-        tags: [
-            {
-                name: "react",
-                color: "#6DA9E4",
-                border: "1px solid #6DA9E4"
-            },
-            {
-                name: "firebase",
-                color: "#E86A33",
-                border: "1px solid #E86A33"
-            },
-            {
-                name: "SCSS",
-                color: "#9556d8",
-                border: "1px solid #9556d8"
-            },
-        ],
+        tags: ["React JS"],
         image: images.chatApp,
         source_code_link: "https://github.com/Gurjantrandahwa/chat_app",
         live_link: "https://chat-app-6b27c.web.app/"
@@ -157,23 +152,7 @@ const All = [
         description:
             "The website is designed using React.js components that provide a modular and reusable approach to building the user interface." +
             "The website also includes a gallery destinations to provide users with an immersive visual experience.",
-        tags: [
-            {
-                name: "react.js",
-                color: "#6DA9E4",
-                border: "1px solid #6DA9E4"
-            },
-            {
-                name: "jsx",
-                color: "#FFD95A",
-                border: "1px solid #FFD95A"
-            },
-            {
-                name: "css",
-                color: "#E5BEEC",
-                border: "1px solid #E5BEEC"
-            },
-        ],
+        tags: ["React JS"],
         image: images.travel,
         source_code_link: "https://github.com/Gurjantrandahwa/travel_advisor",
         live_link: "https://travel-advisor-a53bd.web.app/"
@@ -182,23 +161,7 @@ const All = [
         name: "Blog App",
         description:
             "Blog app that's built with React.js likely consists of multiple components that work together to create a seamless user experience. These components could include a header component, a blog post component, a search bar component, and a filter component.",
-        tags: [
-            {
-                name: "react.js",
-                color: "#6DA9E4",
-                border: "1px solid #6DA9E4"
-            },
-            {
-                name: "Firebase",
-                color: "#E86A33",
-                border: "1px solid #E86A33"
-            },
-            {
-                name: "CSS",
-                color: "#E5BEEC",
-                border: "1px solid #E5BEEC"
-            },
-        ],
+        tags: ["React JS"],
         image: images.blogApp,
         source_code_link: "https://github.com/Gurjantrandahwa/blog-app",
         live_link: "https://blog-app-f22d2.web.app/"
@@ -207,23 +170,7 @@ const All = [
         name: "Box Office App",
         description:
             "Box-Office app is a movie search app that allows users to search for movies, view details about them, and see their ratings and reviews. The app is built using React.js, a popular JavaScript library for building user interfaces, and an API that provides movie data.",
-        tags: [
-            {
-                name: "react.js",
-                color: "#6DA9E4",
-                border: "1px solid #6DA9E4"
-            },
-            {
-                name: "api",
-                color: "#8294C4",
-                border: "1px solid #8294C4"
-            },
-            {
-                name: "scss",
-                color: "#9556d8",
-                border: "1px solid #9556d8"
-            },
-        ],
+        tags: ["React JS"],
         image: images.boxOffice,
         source_code_link: "https://github.com/Gurjantrandahwa/movies_search_app",
 
@@ -232,23 +179,7 @@ const All = [
         name: "E-commerce website",
         description:
             "E-commerce website that's built with React.js likely consists of multiple components that work together to create a seamless user experience. These components could include a header component, a product list component, a search bar component, and a filter component.",
-        tags: [
-            {
-                name: "react.js",
-                color: "#6DA9E4",
-                border: "1px solid #6DA9E4"
-            },
-            {
-                name: "api",
-                color: "#00FFCA",
-                border: "1px solid #8294C4"
-            },
-            {
-                name: "scss",
-                color: "#9556d8",
-                border: "1px solid #9556d8"
-            },
-        ],
+        tags: ["React JS"],
         image: images.eCommerce,
         source_code_link: "https://github.com/Gurjantrandahwa/react_store",
     },
@@ -256,23 +187,7 @@ const All = [
         name: "Contact App",
         description:
             "Contact App is a web application that allows users to create and manage their contacts. It uses React.js for the frontend, providing a user-friendly interface with features such as contact creation, editing, and deletion. Contact data can be stored locally or retrieved from a server.",
-        tags: [
-            {
-                name: "react.js",
-                color: "#6DA9E4",
-                border: "1px solid #6DA9E4"
-            },
-            {
-                name: "JSX",
-                color: "#FFD95A",
-                border: "1px solid #FFD95A"
-            },
-            {
-                name: "scss",
-                color: "#9556d8",
-                border: "1px solid #9556d8"
-            },
-        ],
+        tags: ["React JS"],
         image: images.contact,
         source_code_link: "https://github.com/Gurjantrandahwa/react_store",
     },
@@ -283,24 +198,7 @@ const All = [
             "MERN Login Register is a web application that allows users to create and manage their accounts using the " +
             "MERN stack. It features a secure login and registration system to protect user data."
         ,
-        tags: [
-            {
-                name: "react.js",
-                color: "#6DA9E4",
-                border: "1px solid #6DA9E4"
-            },
-
-            {
-                name: "Mongo-DB",
-                color: "#03C988",
-                border: "1px solid #03C988"
-            },
-            {
-                name: "Express.js",
-                color: "#F0F0F0",
-                border: "1px solid #F0F0F0"
-            },
-        ],
+        tags: ["MERN"],
         image: "https://portfolio-9c109.web.app/static/media/img_7.e0376b60942ab541292d.png",
         source_code_link: "https://github.com/Gurjantrandahwa/mern-login-register",
 
@@ -311,23 +209,7 @@ const All = [
             "MERN Tinder Clone is a web application that replicates the popular dating app Tinder. It uses the MERN stack, " +
             "including MongoDB, Express, React, and Node.js, to provide a similar user experience with features such as swiping," +
             " matching, and chatting.",
-        tags: [
-            {
-                name: "react.js",
-                color: "#6DA9E4",
-                border: "1px solid #6DA9E4"
-            },
-            {
-                name: "Mongo-DB",
-                color: "#03C988",
-                border: "1px solid #03C988"
-            },
-            {
-                name: "Express.js",
-                color: "#F0F0F0",
-                border: "1px solid #F0F0F0"
-            },
-        ],
+        tags: ["MERN"],
         image: "https://portfolio-9c109.web.app/static/media/img_1.159b111e7a988a9d7c2e.png",
         source_code_link: "https://github.com/Gurjantrandahwa/MERN-tinder-clone",
 
@@ -337,23 +219,7 @@ const All = [
         description:
             " Twitter Clone is a web application that replicates the social media platform Twitter. It uses React.js for the frontend and Firebase " +
             "for the backend, providing a similar user experience with features such as tweeting,and liking posts.",
-        tags: [
-            {
-                name: "react.js",
-                color: "#6DA9E4",
-                border: "1px solid #6DA9E4"
-            },
-            {
-                name: "Mongo-DB",
-                color: "#03C988",
-                border: "1px solid #03C988"
-            },
-            {
-                name: "Express.js",
-                color: "#F0F0F0",
-                border: "1px solid #F0F0F0"
-            },
-        ],
+        tags: ["Firebase"],
         image: "https://portfolio-9c109.web.app/static/media/img_3.19bcd3d3eec762a631e3.png",
         source_code_link: "https://github.com/Gurjantrandahwa/twitterclone",
         live_link: "https://twitter-clone-94586.web.app/"
@@ -364,23 +230,7 @@ const All = [
             "Amazon Clone is a web application that replicates the popular e-commerce platform Amazon. It uses React.js for the frontend" +
             " and Firebase for the backend, providing a similar user experience with features such as browsing products, adding them to cart," +
             " and completing purchases.",
-        tags: [
-            {
-                name: "react.js",
-                color: "#6DA9E4",
-                border: "1px solid #6DA9E4"
-            },
-            {
-                name: "firebase",
-                color: "#E86A33",
-                border: "1px solid #E86A33"
-            },
-            {
-                name: "css",
-                color: "#E5BEEC",
-                border: "1px solid #E5BEEC"
-            },
-        ],
+        tags: ["Firebase"],
         image: "https://portfolio-9c109.web.app/static/media/img.d84a482c71e76553db94.png",
         source_code_link: "https://github.com/Gurjantrandahwa/AmazonClone",
         live_link: "https://e-clone-b0b92.web.app/"
@@ -389,23 +239,7 @@ const All = [
         name: "Youtube Clone",
         description:
             "YouTube Clone is a web application that replicates the popular video-sharing platform YouTube. It uses React.js for the frontend and Firebase for the backend, providing a similar user experience with features such as video playback, commenting, and subscribing to channels.",
-        tags: [
-            {
-                name: "react.js",
-                color: "#6DA9E4",
-                border: "1px solid #6DA9E4"
-            },
-            {
-                name: "firebase",
-                color: "#E86A33",
-                border: "1px solid #E86A33"
-            },
-            {
-                name: "css",
-                color: "#E5BEEC",
-                border: "1px solid #E5BEEC"
-            },
-        ],
+        tags: ["Web App"],
         image: "https://portfolio-9c109.web.app/static/media/img_2.837e7f0d6270c57cb96d.png",
         source_code_link: "https://github.com/Gurjantrandahwa/Youtube-clone",
         live_link: "https://clone-9b57d.web.app/"
@@ -414,23 +248,7 @@ const All = [
         name: "Netflix Clone",
         description:
             "The Netflix clone utilizes APIs to fetch data such as movie titles, descriptions, and Assets from external sources. It also incorporates features such as rating, recommendations, and categories to enhance the user experience.",
-        tags: [
-            {
-                name: "react.js",
-                color: "#6DA9E4",
-                border: "1px solid #6DA9E4"
-            },
-            {
-                name: "firebase",
-                color: "#E86A33",
-                border: "1px solid #E86A33"
-            },
-            {
-                name: "css",
-                color: "#E5BEEC",
-                border: "1px solid #E5BEEC"
-            },
-        ],
+        tags: ["Firebase"],
         image: "https://portfolio-9c109.web.app/static/media/img_6.9210e801efe53eb8f0a6.png",
         source_code_link: "https://github.com/Gurjantrandahwa/NetflixClone",
         live_link: "https://netflix-clone-4e2cc.web.app/"
@@ -442,23 +260,7 @@ const All = [
         description:
             "Pokemon Website is a web application that displays details of various Pokemon. It uses React.js for the frontend and retrieves data from the Pokemon API, providing a user-friendly interface with features such as search, filter, and display of Pokemon details such as name, image, type, and abilities."
         ,
-        tags: [
-            {
-                name: "react.js",
-                color: "#6DA9E4",
-                border: "1px solid #6DA9E4"
-            },
-            {
-                name: "CSS",
-                color: "#E5BEEC",
-                border: "1px solid #E5BEEC"
-            },
-            {
-                name: "jsx",
-                color: "#FFD95A",
-                border: "1px solid #FFD95A"
-            },
-        ],
+        tags: ["Web App"],
         image: images.pokeWeb,
         source_code_link: "https://github.com/Gurjantrandahwa/poke_web",
 
@@ -468,23 +270,7 @@ const All = [
         description:
             "Trade Website with HTML, CSS, JavaScript and Animation is a website that provides information about trading. It uses HTML, CSS, and JavaScript to create an interactive user interface with animations, providing a seamless browsing experience with features such as charts, trading tools, and news updates."
         ,
-        tags: [
-            {
-                name: "HTML",
-                color: "#4B56D2",
-                border: "1px solid #4B56D2"
-            },
-            {
-                name: "CSS",
-                color: "#E5BEEC",
-                border: "1px solid #E5BEEC"
-            },
-            {
-                name: "Javascript",
-                color: "#00FFF6",
-                border: "1px solid #00FFF6"
-            },
-        ],
+        tags: ["Web App"],
         image: images.trade,
         source_code_link: "https://github.com/Gurjantrandahwa/trade_website",
         live_link: "https://gurjantrandahwa.github.io/trade_website/"
@@ -495,23 +281,7 @@ const All = [
         description:
             "PatientGrid Website uses HTML, CSS, and JavaScript to create an interactive user interface with features such as search, and display of patient details. It also includes graphs and images to visually represent patient data, providing a comprehensive view of their medical history."
         ,
-        tags: [
-            {
-                name: "HTML",
-                color: "#47B5FF",
-                border: "1px solid #4B56D2"
-            },
-            {
-                name: "CSS",
-                color: "#E5BEEC",
-                border: "1px solid #E5BEEC"
-            },
-            {
-                name: "Javascript",
-                color: "#00FFF6",
-                border: "1px solid #00FFF6"
-            },
-        ],
+        tags: ["Web App"],
         image: images.patient,
         source_code_link: "https://github.com/Gurjantrandahwa/creatiwise_website",
         live_link: "https://gurjantrandahwa.github.io/creatiwise_website/"
@@ -522,23 +292,7 @@ const All = [
         name: "Exercise Website",
         description:
             "Exercise Website is a web application that provides exercises and workout routines. It uses React.js for the frontend, providing a user-friendly interface with features such as exercise videos, exercises, and display. Users can receive personalized workout recommendations.",
-        tags: [
-            {
-                name: "React.js",
-                color: "#6DA9E4",
-                border: "1px solid #6DA9E4"
-            },
-            {
-                name: "api",
-                color: "#00FFCA",
-                border: "1px solid #00FFCA"
-            },
-            {
-                name: "CSS",
-                color: "#E5BEEC",
-                border: "1px solid #E5BEEC"
-            },
-        ],
+        tags: ["Web App"],
         image: images.exercise,
         source_code_link: "https://github.com/Gurjantrandahwa/exercise_app",
 
@@ -547,23 +301,7 @@ const All = [
         name: "Stepper Form",
         description:
             "Stepper Form is a web application that guides users through a multi-step form. It uses React.js for the frontend, providing a user-friendly interface with features such as step-by-step instructions and progress tracking. Users can input and review information before submitting the form.",
-        tags: [
-            {
-                name: "React.js",
-                color: "#6DA9E4",
-                border: "1px solid #6DA9E4"
-            },
-            {
-                name: "Jsx",
-                color: "#FFD95A",
-                border: "1px solid #FFD95A"
-            },
-            {
-                name: "Css",
-                color: "#E5BEEC",
-                border: "1px solid #E5BEEC"
-            },
-        ],
+        tags: ["Web App"],
         image: images.stepperForm,
         source_code_link: "https://github.com/Gurjantrandahwa/stepper_form",
 
@@ -572,5 +310,5 @@ const All = [
 ]
 
 
-export {about,All}
+export {about,All,skills}
 

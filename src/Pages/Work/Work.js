@@ -7,12 +7,28 @@ import {AiFillEye, AiFillGithub} from "react-icons/ai";
 import "./work.scss"
 
 function Work() {
-    const [activeFilter, setActiveFilter] = useState('All');
+    const [activeFilter, setActiveFilter] = useState("React JS");
+    const [filteredProjects, setFilteredProjects] = useState(All);
     const [animateCard, setAnimateCard] = useState({y: 0, opacity: 1});
 
-    const handleWorkFilter = () => {
+    const handleWorkFilter = (selectedFilter) => {
+        setActiveFilter(selectedFilter);
 
-    }
+        setAnimateCard({ y: -50, opacity: 0 });
+
+        if (selectedFilter === "All") {
+            setFilteredProjects(All);
+        } else {
+            const filtered = All.filter((work) =>
+                work.tags.includes(selectedFilter)
+            );
+            setFilteredProjects(filtered);
+        }
+
+        setTimeout(() => {
+            setAnimateCard({ y: 0, opacity: 1 });
+        }, 500);
+    };
 
     return <>
         <h2 className={"head-text"}>
@@ -20,11 +36,11 @@ function Work() {
         </h2>
 
         <div className={"app__work-filter"}>
-            {['All','React JS , Web App , MERN'].map((item, index) => (
+            {['React JS' , 'Web App' , 'MERN','Firebase', 'All'].map((item, index) => (
                 <div
                     key={index}
                     onClick={() => handleWorkFilter(item)}
-                    className={`work-filter-item app__flex p-text ${activeFilter === item ? 'item-active' : ""}`}
+                    className={`app__work-filter-item app__flex p-text ${activeFilter === item ? 'item-active' : ""}`}
                 >
                     {item}
 
@@ -37,7 +53,7 @@ function Work() {
             transition={{duration: 0.5, delayChildren: 0.5}}
             className={"app__work-portfolio"}
         >
-            {All.map((work, index) => (
+            {filteredProjects.map((work, index) => (
                 <div key={index} className={"app__work-item app__flex"}>
                     <div className={"app__work-img app__flex"}>
                         <img src={work.image} alt={""}/>
@@ -76,11 +92,7 @@ function Work() {
                         </h4>
                         <p className={"p-text"} style={{marginTop:10}}>{work.description}</p>
                         <div className={"app__work-tag app__flex"}>
-                            <p className={"p-text"}>      {work.tags.map((i)=>{
-                                return  <>   {i.name}</>
-                            }
-
-                            )}</p>
+                            <p className={"p-text"}>{work.tags[0]}</p>
                         </div>
                     </div>
 
