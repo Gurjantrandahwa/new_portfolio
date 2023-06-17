@@ -1,12 +1,11 @@
 import "./about.scss";
 import {motion} from "framer-motion";
 import {about} from "../../data/data";
+import AppWrap from "../../wrapper/AppWrap";
 
-export default function About() {
+function About() {
     return <>
-        <h2 className={"head-text"} style={{marginTop:30}}>
-
-
+        <h2 className={"head-text"} >
             Unleashing creativity through  exceptional<br/> <span>frontend</span> and <span>web</span> development.
         </h2>
         <div className={"app__profiles"}>
@@ -26,3 +25,4 @@ export default function About() {
         </div>
     </>
 }
+export default AppWrap(About,"about")

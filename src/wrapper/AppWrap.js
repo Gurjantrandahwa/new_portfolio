@@ -1,4 +1,5 @@
 import SocialMedia from "../components/SocialMedia";
+import NavigationDots from "../components/NavigationDots";
 
 
 const AppWrap = (Component, idName, classNames) => function HOC() {
@@ -13,6 +14,7 @@ const AppWrap = (Component, idName, classNames) => function HOC() {
                 <p className={"p-text"}>All rights reserved</p>
             </div>
         </div>
+       <NavigationDots active={idName}/>
     </div>
 }
 
