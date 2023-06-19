@@ -19,7 +19,10 @@ import about04 from '../assets/about04.png';
 import profile from '../assets/profile.png';
 import circle from '../assets/circle.svg';
 import spotify from '../assets/spotify.png';
-import logo from "../assets/logo.png"
+import logo from "../assets/logo.png";
+import firebase from "../assets/firebase.png"
+import nextJs from "../assets/Next.js.png"
+import tailwindCSS from "../assets/tailwind.png"
 import blogApp from "../assets/Projects/blog-app.jpg"
 import boxOffice from "../assets/Projects/box-office.jpg"
 import chatApp from "../assets/Projects/chat-app.jpg"
@@ -31,6 +34,9 @@ import pokeWeb from "../assets/Projects/pokeweb.jpg"
 import stepperForm from "../assets/Projects/stepper-form.jpg"
 import trade from "../assets/Projects/trade.jpg"
 import travel from "../assets/Projects/travel.jpg"
+import prLogo from "../assets/prLogo.png";
+import volo from "../assets/volo.png";
+
 export default {
     email,
     mobile,
@@ -46,7 +52,9 @@ export default {
     redux,
     sass,
     typescript,
-
+    firebase,
+    nextJs,
+    tailwindCSS,
     about01,
     about02,
     about03,
@@ -55,5 +63,7 @@ export default {
     circle,
     spotify,
     logo,
-    blogApp,boxOffice,chatApp,contact,eCommerce,exercise,patient,pokeWeb,stepperForm,trade,travel
+    prLogo,
+    volo,
+    blogApp, boxOffice, chatApp, contact, eCommerce, exercise, patient, pokeWeb, stepperForm, trade, travel
 };

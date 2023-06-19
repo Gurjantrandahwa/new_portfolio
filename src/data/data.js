@@ -56,20 +56,25 @@ const skills = [
         // bgColor: "#3850a7",
         icon:images.react
     },
-    {
-        name: "Redux",
-        // bgColor: "#272525",
-        icon:images.redux
-    },
+    // {
+    //     name: "Redux",
+    //     // bgColor: "#272525",
+    //     icon:images.redux
+    // },
+    // {
+    //     name: "TypeScript",
+    //     // bgColor: "#272525",
+    //     icon:images.typescript
+    // },
     {
         name: "Next JS",
         // bgColor: "#272525",
-        icon:images.redux
+        icon:images.nextJs
     },
     {
         name: "Tailwind CSS",
         // bgColor: "#3889a7",
-        icon:images.typescript
+        icon:images.tailwindCSS
     },
     {
         name: "Node JS",
@@ -80,7 +85,7 @@ const skills = [
     {
         name: "Firebase",
         // bgColor: "#d0b652",
-        icon:images.node
+        icon:images.firebase
     },
 
     {
@@ -90,51 +95,51 @@ const skills = [
     },
 ];
 
-// const experiences = [
-//     {
-//         title: "React.js Developer",
-//         company_name: "Paleru Technologies Pvt. Ltd.",
-//         icon: prLogo,
-//         iconBg: "#383E56",
-//         date: "May 2023 - Present",
-//         points: [
-//             "Developed interactive and dynamic user interfaces of Praccel website using React.js.",
-//             "Built the pages with React Router for client-side routing and navigation in single-page applications.",
-//             "Implemented responsive designs using SASS to ensure a seamless user experience across devices.",
-//             "Integrated third-party libraries and components to enhance application functionality.",
-//         ],
-//     },
-//
-//     {
-//         title: "React.js Developer",
-//         company_name: "Volobot Advanced Systems",
-//         icon: volo,
-//         iconBg: "#383E56",
-//         date: "Dec 2022 - Mar 2023",
-//         points: [
-//             "Responsible for developing and maintaining responsive e-commerce website using React.js.",
-//             "Collaborated with cross-functional teams to design and implement user interfaces.",
-//             "Integrated with RESTful APIs to fetch and update data in real-time.",
-//             "Comfortable working in a collaborative environment and utilizing version control systems like Git.",
-//         ],
-//     },
-//
-//     {
-//         title: "Web Developer",
-//         company_name: "Volobot Advanced Systems",
-//         icon: volo,
-//         iconBg: "#383E56",
-//         date: "Jul 2022 - Oct 2022",
-//         points: [
-//             "Developed and maintained responsive websites using HTML, CSS, and JavaScript.",
-//             "Implemented modern web design principles to create visually appealing and user-friendly interfaces.",
-//             "Integrated RESTful APIs to fetch and display data in real-time.",
-//             "Implemented responsive designs using CSS and CSS frameworks like Bootstrap or Tailwind CSS.",
-//         ],
-//     },
-//
-// ];
-//
+const experiences = [
+    {
+        title: "React.js Developer",
+        company: "Paleru Technologies Pvt. Ltd.",
+        icon: images.prLogo,
+        iconBg: "#383E56",
+        date: "May 2023 - Present",
+        points: [
+            "Developed interactive and dynamic user interfaces of Praccel website using React.js.",
+            "Built the pages with React Router for client-side routing and navigation in single-page applications.",
+            "Implemented responsive designs using SASS to ensure a seamless user experience across devices.",
+            "Integrated third-party libraries and components to enhance application functionality.",
+        ],
+    },
+
+    {
+        title: "React.js Developer",
+        company: "Volobot Advanced Systems",
+        icon: images.volo,
+        iconBg: "#383E56",
+        date: "Dec 2022 - Mar 2023",
+        points: [
+            "Responsible for developing and maintaining responsive e-commerce website using React.js.",
+            "Collaborated with cross-functional teams to design and implement user interfaces.",
+            "Integrated with RESTful APIs to fetch and update data in real-time.",
+            "Comfortable working in a collaborative environment and utilizing version control systems like Git.",
+        ],
+    },
+
+    {
+        title: "Web Developer",
+        company: "Volobot Advanced Systems",
+        icon: images.volo,
+        iconBg: "#383E56",
+        date: "Jul 2022 - Oct 2022",
+        points: [
+            "Developed and maintained responsive websites using HTML, CSS, and JavaScript.",
+            "Implemented modern web design principles to create visually appealing and user-friendly interfaces.",
+            "Integrated RESTful APIs to fetch and display data in real-time.",
+            "Implemented responsive designs using CSS and CSS frameworks like Bootstrap or Tailwind CSS.",
+        ],
+    },
+
+];
+
 const All = [
     {
         name: "Chat App",
@@ -310,5 +315,5 @@ const All = [
 ]
 
 
-export {about,All,skills}
+export {about,All,skills,experiences}
 
