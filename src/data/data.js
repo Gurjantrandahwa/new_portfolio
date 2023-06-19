@@ -32,65 +32,53 @@ const about = [
 const skills = [
     {
         name: "HTML 5",
-        // bgColor: "#a73838",
         icon:images.html
     },
     {
         name: "CSS 3",
-        // bgColor: "#242652",
         icon:images.css
     },
     {
         name: "SASS",
-        // bgColor: "#be6596",
         icon:images.sass
     },
     {
         name: "JavaScript",
-        // bgColor: "#bdd010",
         icon:images.javascript
     },
 
     {
         name: "React JS",
-        // bgColor: "#3850a7",
         icon:images.react
     },
     // {
     //     name: "Redux",
-    //     // bgColor: "#272525",
     //     icon:images.redux
     // },
     // {
     //     name: "TypeScript",
-    //     // bgColor: "#272525",
     //     icon:images.typescript
     // },
     {
         name: "Next JS",
-        // bgColor: "#272525",
         icon:images.nextJs
     },
     {
         name: "Tailwind CSS",
-        // bgColor: "#3889a7",
         icon:images.tailwindCSS
     },
     {
         name: "Node JS",
-        // bgColor: "#38a73a",
         icon:images.node
     },
 
     {
         name: "Firebase",
-        // bgColor: "#d0b652",
         icon:images.firebase
     },
 
     {
         name: "Git",
-        // bgColor: "rgba(24,2,2,0.59)",
         icon:images.git
     },
 ];
@@ -101,12 +89,12 @@ const experiences = [
         company: "Paleru Technologies Pvt. Ltd.",
         icon: images.prLogo,
         iconBg: "#383E56",
-        date: "May 2023 - Present",
+        date: "May 2023 - June 2023",
         points: [
             "Developed interactive and dynamic user interfaces of Praccel website using React.js.",
-            "Built the pages with React Router for client-side routing and navigation in single-page applications.",
-            "Implemented responsive designs using SASS to ensure a seamless user experience across devices.",
-            "Integrated third-party libraries and components to enhance application functionality.",
+            // "Built the pages with React Router for client-side routing and navigation in single-page applications.",
+            // "Implemented responsive designs using SASS to ensure a seamless user experience across devices.",
+            // "Integrated third-party libraries and components to enhance application functionality.",
         ],
     },
 
@@ -118,9 +106,9 @@ const experiences = [
         date: "Dec 2022 - Mar 2023",
         points: [
             "Responsible for developing and maintaining responsive e-commerce website using React.js.",
-            "Collaborated with cross-functional teams to design and implement user interfaces.",
-            "Integrated with RESTful APIs to fetch and update data in real-time.",
-            "Comfortable working in a collaborative environment and utilizing version control systems like Git.",
+            // "Collaborated with cross-functional teams to design and implement user interfaces.",
+            // "Integrated with RESTful APIs to fetch and update data in real-time.",
+            // "Comfortable working in a collaborative environment and utilizing version control systems like Git.",
         ],
     },
 
@@ -132,9 +120,9 @@ const experiences = [
         date: "Jul 2022 - Oct 2022",
         points: [
             "Developed and maintained responsive websites using HTML, CSS, and JavaScript.",
-            "Implemented modern web design principles to create visually appealing and user-friendly interfaces.",
-            "Integrated RESTful APIs to fetch and display data in real-time.",
-            "Implemented responsive designs using CSS and CSS frameworks like Bootstrap or Tailwind CSS.",
+            // "Implemented modern web design principles to create visually appealing and user-friendly interfaces.",
+            // "Integrated RESTful APIs to fetch and display data in real-time.",
+            // "Implemented responsive designs using CSS and CSS frameworks like Bootstrap or Tailwind CSS.",
         ],
     },
 

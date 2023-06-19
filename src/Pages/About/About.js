@@ -2,6 +2,7 @@ import "./about.scss";
 import {motion} from "framer-motion";
 import {about} from "../../data/data";
 import AppWrap from "../../wrapper/AppWrap";
+import MotionWrap from "../../wrapper/MotionWrap";
 
 function About() {
     return <>
@@ -25,4 +26,8 @@ function About() {
         </div>
     </>
 }
-export default AppWrap(About,"about")
+export default AppWrap(
+    MotionWrap(About,"app__about"),
+    "about",
+    "app__whitebg"
+)

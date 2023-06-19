@@ -4,6 +4,7 @@ import Header from "./Pages/Header/Header";
 import About from "./Pages/About/About";
 import Work from "./Pages/Work/Work";
 import Skills from "./Pages/Skills/Skills";
+import Footer from "./Pages/Footer/Footer";
 
 function App() {
     return <div className={"app"}>
@@ -12,6 +13,7 @@ function App() {
         <About/>
         <Work/>
         <Skills/>
+        <Footer/>
     </div>
 }
 

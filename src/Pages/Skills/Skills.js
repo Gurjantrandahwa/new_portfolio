@@ -1,7 +1,10 @@
 import {motion} from "framer-motion";
-import ReactTooltip from "react-tooltip";
+import "react-tooltip/dist/react-tooltip.css";
+import {Tooltip as ReactTooltip} from 'react-tooltip';
 import "./skills.scss";
 import {experiences, skills} from "../../data/data";
+import AppWrap from "../../wrapper/AppWrap";
+import MotionWrap from "../../wrapper/MotionWrap";
 
 
 function Skills() {
@@ -24,26 +27,45 @@ function Skills() {
                     </motion.div>
                 ))}
             </motion.div>
-            <motion.div
-                className={"app__skills-exp"}
-            >
+            <motion.div className={"app__skills-exp"}>
                 {experiences.map((work) => (
-                    <>
-                        <motion.div
-                            whileInView={{opacity: [0, 1]}}
-                            transition={{duration: 0.5}}
-                            className={"app__skills-exp-work"}
-                            data-tip
-                            data-for={work.title}
-                            key={work.title}
+                        <motion.div className={"app__skills-exp-work"}
+                                    key={work.date}
                         >
-                            <h4 className={"bold-text"}>{work.title}</h4>
-                            <p className={"p-text"}>{work.company}</p>
+                            <div className={"app__skills-exp-year"}>
+                                <p className={"bold-text"}>{work.date}</p>
+                            </div>
+                            <motion.div className={"app__skills-exp-works"}>
+                                <>
+                                    <motion.div
+                                        whileInView={{opacity: [0, 1]}}
+                                        transition={{duration: 0.5}}
+                                        className={"app__skills-exp-work"}
+                                        data-tip
+                                        data-for={work.title}
+
+                                    >
+                                        <h4 className={"bold-text"} id={"description"}>{work.title}</h4>
+                                        <p className={"p-text"}>{work.company}</p>
+                                    </motion.div>
+                                    <ReactTooltip
+
+                                        effect={"solid"}
+                                        arrowColor={"#fff"}
+                                        className={"skills-tooltip"}
+                                        anchorId="description"
+                                        place="bottom"
+                                        variant="info"
+                                        content= {work.points}
+                                    />
+
+
+                                </>
+
+                            </motion.div>
                         </motion.div>
-                        {/*<ReactTooltip>*/}
-                        {/*    */}
-                        {/*</ReactTooltip>*/}
-                    </>
+
+
                 ))}
 
             </motion.div>
@@ -51,4 +73,6 @@ function Skills() {
     </>
 }
 
-export default Skills;
+export default AppWrap(
+
+    MotionWrap(Skills,"app__skills"),"skills","app__whitebg");
