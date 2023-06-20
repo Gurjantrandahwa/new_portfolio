@@ -21,7 +21,7 @@ function Footer() {
         setFormData({...formData, [name]: value})
     }
     const handleSubmit = () => {
-setLoading(true)
+        setLoading(true)
 
     }
 
@@ -45,7 +45,10 @@ setLoading(true)
             </div>
         </div>
 
-        <div className={"app__footer-form app__flex"}>
+        <form className={"app__footer-form app__flex"}
+              action={"https://formspree.io/f/xoqzrrkv"}
+              method={"POST"}
+        >
             <div className={"app__flex"}>
                 <input
                     className={"p-text"}
@@ -69,19 +72,18 @@ setLoading(true)
             <div>
                 <textarea
                     className={"p-text"}
-
                     placeholder={"Message"}
                     name={"message"}
                     value={message}
                     onChange={handleInputChange}
                 />
             </div>
-            <button type={"button"} className={"p-text"}
+            <button type={"submit"} className={"p-text"}
                     onClick={handleSubmit}
             >
                 {loading ? "Sending..." : "Send Message"}
             </button>
-        </div>
+        </form>
     </>
 }
 
