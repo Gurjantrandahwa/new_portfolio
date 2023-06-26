@@ -1,6 +1,4 @@
 import {motion} from "framer-motion";
-import "react-tooltip/dist/react-tooltip.css";
-import {Tooltip as ReactTooltip} from 'react-tooltip';
 import "./skills.scss";
 import {experiences, skills} from "../../data/data";
 import AppWrap from "../../wrapper/AppWrap";
@@ -10,7 +8,6 @@ import MotionWrap from "../../wrapper/MotionWrap";
 function Skills() {
     return <>
         <h2 className={"head-text"}>Skills & Experience</h2>
-
         <div className={"app__skills-container"}>
             <motion.div className={"app__skills-list"}>
                 {skills.map((value) => (
@@ -27,46 +24,23 @@ function Skills() {
                     </motion.div>
                 ))}
             </motion.div>
-            <motion.div className={"app__skills-exp"}>
-                {experiences.map((work) => (
-                        <motion.div className={"app__skills-exp-work"}
-                                    key={work.date}
-                        >
-                            <div className={"app__skills-exp-year"}>
-                                <p className={"bold-text"}>{work.date}</p>
-                            </div>
-                            <motion.div className={"app__skills-exp-works"}>
-                                <>
-                                    <motion.div
-                                        whileInView={{opacity: [0, 1]}}
-                                        transition={{duration: 0.5}}
-                                        className={"app__skills-exp-work"}
-                                        data-tip
-                                        data-for={work.title}
+            <motion.div className={"ex-container"}>
+                {
+                    experiences.map((value, index) => {
+                        return <ul key={index}>
+                            <li className={"ex-list"}>
+                                <div>
+                                    <h3 className={"title"}>{value.title}<br/>{value.company}</h3>
+                                    <span className={"time"}>{value.time}</span>
+                                    <p className={"points"}> {value.points.map(v=>{
+                                        return<li>{v}</li>
+                                    })}</p>
+                                </div>
+                            </li>
+                        </ul>
+                    })
+                }
 
-                                    >
-                                        <h4 className={"bold-text"} id={"description"}>{work.title}</h4>
-                                        <p className={"p-text"}>{work.company}</p>
-                                    </motion.div>
-                                    <ReactTooltip
-
-                                        effect={"solid"}
-                                        arrowColor={"#fff"}
-                                        className={"skills-tooltip"}
-                                        anchorId="description"
-                                        place="bottom"
-                                        variant="info"
-                                        content= {work.points}
-                                    />
-
-
-                                </>
-
-                            </motion.div>
-                        </motion.div>
-
-
-                ))}
 
             </motion.div>
         </div>
@@ -74,5 +48,4 @@ function Skills() {
 }
 
 export default AppWrap(
-
-    MotionWrap(Skills,"app__skills"),"skills","app__whitebg");
+    MotionWrap(Skills, "app__skills"), "skills", "app__whitebg");
