@@ -25,12 +25,14 @@ function Skills() {
                 ))}
             </motion.div>
             <motion.div className={"ex-container"}>
+                <div className={"line"}/>
                 {
                     experiences.map((value, index) => {
                         return <ul key={index}>
-                            <li className={"ex-list"}>
+
+                            <li className={"list"}>
                                 <div>
-                                    <h3 className={"title"}>{value.title}<br/>{value.company}</h3>
+                                    <h3 className={"title"}>{value.title}<br/><span>{value.company}</span></h3>
                                     <span className={"time"}>{value.time}</span>
                                     <p className={"points"}> {value.points.map(v=>{
                                         return<li>{v}</li>
