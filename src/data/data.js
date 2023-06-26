@@ -21,9 +21,9 @@ const about = [
         imgUrl: images.about03,
     },
     {
-        title: "MERN Stack",
+        title: "Responsive Design",
         description:
-            "I develop websites that adapt to different devices, providing a consistent and user-friendly experience for all visitors.",
+            "Crafting websites that seamlessly adapt to all devices, ensuring a consistent and user-friendly experience for all visitors.",
         imgUrl: images.about04,
     },
 ];

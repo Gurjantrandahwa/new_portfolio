@@ -34,7 +34,6 @@ function Header() {
                 <div className="tag-cmp app__flex">
                     <p className="p-text">Frontend Developer</p>
                     <p className="p-text">Web Developer</p>
-
                 </div>
             </div>
         </motion.div>

@@ -19,11 +19,12 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  background: black;
 
   img {
     width: 90px;
     height: 20px;
-object-fit: contain;
+    object-fit: contain;
     @media screen and (min-width: 2000px) {
       width: 180px;
       height: 40px;
