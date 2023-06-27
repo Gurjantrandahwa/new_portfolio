@@ -147,10 +147,12 @@
 
   .app__work-tag {
     position: absolute;
-
     padding: 0.5rem 1rem;
     border-radius: 10px;
-    background-color: #fff;
-    top: -25px;
+    background-color: var(--secondary-color);
+    color: #fff;
+    top: -20px;
+    font-size: 0.8rem;
+    line-height: 1.5;
   }
 }

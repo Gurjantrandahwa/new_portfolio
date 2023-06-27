@@ -296,7 +296,24 @@ const All = [
         source_code_link: "https://github.com/Gurjantrandahwa/stepper_form",
 
     },
+    {
+        name: "Cars Showcase",
+        description:
+            "Discover car models with this Next.js app. Browse listings, view details, and compare cars side by side. A seamless experience for car enthusiasts and potential buyers looking to explore and find their dream cars.",
+        tags: ["Next JS"],
+        image: images.carsShowcase,
+        source_code_link: "https://github.com/Gurjantrandahwa/cars_showcase",
 
+    },
+    {
+        name: "Metaverse Web",
+        description:
+            "Immerse yourself in a virtual world with Metaverse Web, a Next.js app. Create avatars, explore interactive environments, connect with other users, and engage in a variety of virtual activities. Experience the blending of physical and digital realms through this visually stunning and interactive metaverse.",
+        tags: ["Next JS"],
+        image: images.metaverse,
+        source_code_link: "https://github.com/Gurjantrandahwa/next.js_metaverse_web",
+
+    },
 ]
 
 

@@ -36,6 +36,8 @@ import trade from "../assets/Projects/trade.jpg"
 import travel from "../assets/Projects/travel.jpg"
 import prLogo from "../assets/prLogo.png";
 import volo from "../assets/volo.png";
+import metaverse from "../assets/Projects/metaverse.jpg";
+import carsShowcase from "../assets/Projects/carShowcae.jpg";
 
 export default {
     email,
@@ -65,5 +67,6 @@ export default {
     logo,
     prLogo,
     volo,
-    blogApp, boxOffice, chatApp, contact, eCommerce, exercise, patient, pokeWeb, stepperForm, trade, travel
+    blogApp,
+    boxOffice, chatApp, contact, eCommerce, exercise, patient, pokeWeb, stepperForm, trade, travel,metaverse,carsShowcase
 };

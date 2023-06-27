@@ -35,9 +35,7 @@
 .app__skills-item {
   flex-direction: column;
   text-align: center;
-
   margin: 1rem;
-
   transition: all 0.3s ease-in-out;
 
   div {
@@ -136,13 +134,13 @@
       }
 
       .points {
-        margin-top: 5px;
+        margin-top: 10px;
 
         li {
           font-weight: 400;
           width: 100%;
-          list-style: circle;
-          margin-bottom: 5px;
+          list-style: square;
+          margin-bottom: 8px;
           color: var(--gray-color);
         }
       }

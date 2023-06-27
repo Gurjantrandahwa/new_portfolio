@@ -35,7 +35,7 @@ function Work() {
         </h2>
 
         <div className={"app__work-filter"}>
-            {["React JS", "Web App", "MERN", "Firebase", "All"].map((item, index) => (
+            {["React JS", "Next JS","Web App", "MERN", "Firebase", "All"].map((item, index) => (
                 <div
                     key={index}
                     onClick={() => handleWorkFilter(item)}
@@ -92,7 +92,7 @@ function Work() {
                             {work.description}
                         </p>
                         <div className={"app__work-tag app__flex"}>
-                            <p className={"p-text"}>{work.tags[0]}</p>
+                            <p>{work.tags[0]}</p>
                         </div>
                     </div>
                 </div>
