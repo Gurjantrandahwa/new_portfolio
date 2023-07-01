@@ -29,7 +29,6 @@ function Skills() {
                 {
                     experiences.map((value, index) => {
                         return <ul key={index}>
-
                             <li className={"list"}>
                                 <div>
                                     <h3 className={"title"}>{value.title}<br/><span>{value.company}</span></h3>
@@ -42,8 +41,6 @@ function Skills() {
                         </ul>
                     })
                 }
-
-
             </motion.div>
         </div>
     </>
