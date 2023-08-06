@@ -55,10 +55,10 @@ const skills = [
     //     name: "Redux",
     //     icon:images.redux
     // },
-    // {
-    //     name: "TypeScript",
-    //     icon:images.typescript
-    // },
+    {
+        name: "TypeScript",
+        icon:images.typescript
+    },
     {
         name: "Next JS",
         icon:images.nextJs
@@ -126,6 +126,15 @@ const experiences = [
 ];
 
 const All = [
+
+    {
+        name: "Revolutionary Reactor Ecom",
+        description:"React.js eCommerce sites employ APIs for dynamic product data. Components update state and render details. Responsive design with viewport tags, fluid grids, media queries ensures optimal multi-device usability.",
+        tags: ["React JS"],
+        image: images.ecom,
+        source_code_link: "https://github.com/Gurjantrandahwa/revolutionary_reactor_ecom",
+        live_link: "https://revolutionary-reactor.web.app/"
+    },
     {
         name: "Chat App",
         description:
@@ -189,7 +198,7 @@ const All = [
             "MERN stack. It features a secure login and registration system to protect user data."
         ,
         tags: ["MERN"],
-        image: "https://portfolio-9c109.web.app/static/media/img_7.e0376b60942ab541292d.png",
+        image: images.mern_login,
         source_code_link: "https://github.com/Gurjantrandahwa/mern-login-register",
 
     },
@@ -200,7 +209,7 @@ const All = [
             "including MongoDB, Express, React, and Node.js, to provide a similar user experience with features such as swiping," +
             " matching, and chatting.",
         tags: ["MERN"],
-        image: "https://portfolio-9c109.web.app/static/media/img_1.159b111e7a988a9d7c2e.png",
+        image:images.mern_tinder,
         source_code_link: "https://github.com/Gurjantrandahwa/MERN-tinder-clone",
 
     },
@@ -210,7 +219,7 @@ const All = [
             " Twitter Clone is a web application that replicates the social media platform Twitter. It uses React.js for the frontend and Firebase " +
             "for the backend, providing a similar user experience with features such as tweeting,and liking posts.",
         tags: ["Firebase"],
-        image: "https://portfolio-9c109.web.app/static/media/img_3.19bcd3d3eec762a631e3.png",
+        image:images.twitter,
         source_code_link: "https://github.com/Gurjantrandahwa/twitterclone",
         live_link: "https://twitter-clone-94586.web.app/"
     },
@@ -221,7 +230,7 @@ const All = [
             " and Firebase for the backend, providing a similar user experience with features such as browsing products, adding them to cart," +
             " and completing purchases.",
         tags: ["Firebase"],
-        image: "https://portfolio-9c109.web.app/static/media/img.d84a482c71e76553db94.png",
+        image:images.amazon,
         source_code_link: "https://github.com/Gurjantrandahwa/AmazonClone",
         live_link: "https://e-clone-b0b92.web.app/"
     },
@@ -230,7 +239,7 @@ const All = [
         description:
             "YouTube Clone is a web application that replicates the popular video-sharing platform YouTube. It uses React.js for the frontend and Firebase for the backend, providing a similar user experience with features such as video playback, commenting, and subscribing to channels.",
         tags: ["Web App"],
-        image: "https://portfolio-9c109.web.app/static/media/img_2.837e7f0d6270c57cb96d.png",
+        image: images.youtube,
         source_code_link: "https://github.com/Gurjantrandahwa/Youtube-clone",
         live_link: "https://clone-9b57d.web.app/"
     },
@@ -239,7 +248,7 @@ const All = [
         description:
             "The Netflix clone utilizes APIs to fetch data such as movie titles, descriptions, and Assets from external sources. It also incorporates features such as rating, recommendations, and categories to enhance the user experience.",
         tags: ["Firebase"],
-        image: "https://portfolio-9c109.web.app/static/media/img_6.9210e801efe53eb8f0a6.png",
+        image: images.netflix,
         source_code_link: "https://github.com/Gurjantrandahwa/NetflixClone",
         live_link: "https://netflix-clone-4e2cc.web.app/"
     },
@@ -313,6 +322,14 @@ const All = [
         image: images.metaverse,
         source_code_link: "https://github.com/Gurjantrandahwa/next.js_metaverse_web",
 
+    },
+    {
+        name: "AI Prompts Web",
+        description:"the AI Prompts Web facilitates prompt creation, editing, and profile viewing. AI generates personalized prompts for various creative purposes. Users organize, track progress, and collaborate effortlessly. " +
+            "With a responsive design, it transforms creative inspiration and productivity across devices.",
+        tags: ["Next JS"],
+        image: images.prompts,
+        source_code_link: "https://github.com/Gurjantrandahwa/AI_prompts_web",
     },
 ]
 

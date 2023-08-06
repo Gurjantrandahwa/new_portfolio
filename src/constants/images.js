@@ -38,6 +38,14 @@ import prLogo from "../assets/prLogo.png";
 import volo from "../assets/volo.png";
 import metaverse from "../assets/Projects/metaverse.jpg";
 import carsShowcase from "../assets/Projects/carShowcae.jpg";
+import prompts from "../assets/Projects/ai_prompts.jpg";
+import ecom from "../assets/Projects/react-ecom.jpg";
+import mern_login from "../assets/Projects/mern_login.jpg";
+import mern_tinder from "../assets/Projects/tinder.jpg";
+import youtube from "../assets/Projects/youtube.jpg";
+import amazon from "../assets/Projects/amazon.jpg";
+import netflix from "../assets/Projects/netflix.jpg";
+import twitter from "../assets/Projects/twitter.jpg";
 
 export default {
     email,
@@ -68,5 +76,12 @@ export default {
     prLogo,
     volo,
     blogApp,
-    boxOffice, chatApp, contact, eCommerce, exercise, patient, pokeWeb, stepperForm, trade, travel,metaverse,carsShowcase
+    boxOffice, chatApp, contact, eCommerce, exercise, patient, pokeWeb,
+    stepperForm, trade, travel,metaverse,carsShowcase,prompts,ecom,
+    mern_login,
+    mern_tinder,
+    youtube,
+    amazon,
+    netflix,
+    twitter
 };
