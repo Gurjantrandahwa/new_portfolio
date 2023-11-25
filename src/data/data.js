@@ -51,10 +51,6 @@ const skills = [
         name: "React JS",
         icon:images.react
     },
-    // {
-    //     name: "Redux",
-    //     icon:images.redux
-    // },
     {
         name: "TypeScript",
         icon:images.typescript
@@ -163,7 +159,6 @@ const All = [
         tags: ["React JS"],
         image: images.blogApp,
         source_code_link: "https://github.com/Gurjantrandahwa/blog-app",
-        live_link: "https://blog-app-f22d2.web.app/"
     },
     {
         name: "Box Office App",
