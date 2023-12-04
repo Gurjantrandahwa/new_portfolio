@@ -106,7 +106,7 @@ const experiences = [
     },
 
     {
-        title: "React.js Developer",
+        title: "Web Developer",
         company: "Paleru Technologies Pvt. Ltd",
         icon: images.volo,
         time: "Oct 2022 - Dec 2022",
