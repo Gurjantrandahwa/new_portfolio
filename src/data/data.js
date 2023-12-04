@@ -81,10 +81,22 @@ const skills = [
 
 const experiences = [
     {
-        title: "React.js Developer",
+        title: "Front-End Developer, Job",
+        company: "Volobot Advanced Systems",
+        icon: images.volo,
+        time: "June 2023 - Oct 2023",
+        points: [
+            "Developed and maintained responsive websites using HTML, CSS, and JavaScript.",
+            "Implemented modern web design principles to create visually appealing and user-friendly interfaces.",
+            "Integrated RESTful APIs to fetch and display data in real-time.",
+            "Implemented responsive designs using CSS and CSS frameworks like Bootstrap or Tailwind CSS.",
+        ],
+    },
+    {
+        title: "Front-End Developer, Intern",
         company: "Paleru Technologies Pvt. Ltd.",
         icon: images.prLogo,
-        time: "May 2023 - June 2023",
+        time: "April 2023 - May 2023",
         points: [
             "Developed interactive and dynamic user interfaces of Praccel website using React.js.",
             "Built the pages with React Router for client-side routing and navigation in single-page applications.",
@@ -95,29 +107,16 @@ const experiences = [
 
     {
         title: "React.js Developer",
-        company: "Volobot Advanced Systems",
+        company: "Paleru Technologies Pvt. Ltd",
         icon: images.volo,
-        time: "Dec 2022 - Mar 2023",
+        time: "Oct 2022 - Dec 2022",
         points: [
-            "Responsible for developing and maintaining responsive e-commerce website using React.js.",
-            "Collaborated with cross-functional teams to design and implement user interfaces.",
-            "Integrated with RESTful APIs to fetch and update data in real-time.",
-            "Comfortable working in a collaborative environment and utilizing version control systems like Git.",
-        ],
+            "Led development of a transformative React.js project for Praccel Reading, improving student reading skills.",
+            "Developed dynamic, responsive components for seamless user experience on various devices.",
+            "Collaborated with the design team to translate wireframes into polished user interfaces."   ],
     },
 
-    {
-        title: "Web Developer",
-        company: "Volobot Advanced Systems",
-        icon: images.volo,
-        time: "Jul 2022 - Oct 2022",
-        points: [
-            "Developed and maintained responsive websites using HTML, CSS, and JavaScript.",
-            "Implemented modern web design principles to create visually appealing and user-friendly interfaces.",
-            "Integrated RESTful APIs to fetch and display data in real-time.",
-            "Implemented responsive designs using CSS and CSS frameworks like Bootstrap or Tailwind CSS.",
-        ],
-    },
+
 
 ];
 
